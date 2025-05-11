@@ -281,8 +281,9 @@ console.log(obj[sym1]); // value1
 </pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-2. Manipulating Advanced Data Types
+<h2>2. Manipulating Advanced Data Types</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
   - Using Sets: You can perform operations like union, intersection, and difference by 
     combining Sets.
   - Using Maps: Maps can be used to create dictionaries or associative arrays, allowing 
@@ -291,7 +292,7 @@ console.log(obj[sym1]); // value1
     enhancing encapsulation.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-3. Using GitHub for Code Management
+<h2>3. Using GitHub for Code Management</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Creating a Repository</h4>
 
@@ -348,7 +349,7 @@ git checkout -b feature/sets-implementation
   - After making changes, push the branch and create a pull request on GitHub for review.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-4. Resources for Learning
+<h2>4. Resources for Learning</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   - MDN Web Docs: Comprehensive documentation on Sets, Maps, and Symbols.
   - JavaScript.info: A great resource for in-depth tutorials on advanced JavaScript topics.
@@ -358,7 +359,7 @@ others, and showcase your work. This approach will help you solidify your unders
 of advanced data types in JavaScript while also gaining experience with version control 
 and collaboration tools.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-5. Asynchronous JavaScript
+<h2>5. Asynchronous JavaScript</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Asynchronous JavaScript is a programming paradigm that allows JavaScript to perform tasks 
 without blocking the execution of other code. This is particularly important in web 
@@ -367,7 +368,7 @@ like fetching data from a server or reading files.
 To understand asynchronous JavaScript, we can break it down into several sub-problems:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-6. Understanding the Event Loop
+<h2>6. Understanding the Event Loop</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>What is the Event Loop?</h4>
 
@@ -384,7 +385,7 @@ To understand asynchronous JavaScript, we can break it down into several sub-pro
     the callback when the call stack is empty.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-7. Callback Functions
+<h2>7. Callback Functions</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>What are callbacks?</h4>
 
@@ -407,7 +408,9 @@ fetchData((data) => {
 });
 </pre>
 
-3. Promises
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>8. Promises</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <h4>What are Promises?</h4>
 
@@ -453,8 +456,9 @@ myPromise.then((result) => {
     console.log(result); // Output after 2 seconds : 'Promise resolved'
 });
 </pre>
-
-4. Async/Await
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>9. Async/Await</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <h4>What is Async/Await?</h4>
   - Async/Await is a syntactic sugar built on top of Promises that allows you to write 
@@ -486,8 +490,9 @@ const getData = async () => {
 };
 getData();
 </pre>
-
-5. Error Handling
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>10. Error Handling</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - Error handling in callbacks:
   - Typically done by passing an error as the first argument to the callback.
@@ -496,7 +501,9 @@ getData();
   - Error handling with Async/Await:
   - Use try...catch blocks to handle errors.
 
-6. Practical Use Cases
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>11. Practical Use Cases</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - Fetching data from APIs:
   - Use fetch() or libraries like Axios to make HTTP requests.
@@ -513,7 +520,7 @@ Asynchronous JavaScript is essential for building responsive web applications. B
 understanding the event loop, callbacks, promises, async/await, and error handling, 
 you can effectively manage asynchronous operations in your code.
 
-3. Object-Oriented Programming (OOP):
+<h2>3. Object-Oriented Programming (OOP):</h2>
 Object-Oriented Programming (OOP) is a programming paradigm that uses "objects" to 
 represent data and methods to manipulate that data. OOP is designed to improve code 
 organization, reusability, and maintainability. To understand OOP, we can break it 
@@ -563,7 +570,9 @@ class Car {
 const myCar = new Car('Toyota', 'Corolla', 2020);
 ```
 
-2. OOP Principles
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>2. OOP Principles</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 a. Encapsulation
   - Definition: Encapsulation is the bundling of data (attributes) and methods 
     (functions) that operate on that data within a single unit (class). It restricts 
@@ -710,8 +719,9 @@ Object-Oriented Programming is a powerful paradigm that helps in organizing code
 promoting reusability, and enhancing maintainability. By understanding the key 
 concepts and principles of OOP, developers can create robust and scalable applications.
 
-4. Functional Programming:
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>4. Functional Programming:</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Introduction</h4>
 
 Functional programming is a powerful paradigm that has gained significant popularity 
