@@ -226,8 +226,8 @@ managing your code and collaborating on projects related to these topics.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <h4>javascript</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>
 const mySet = new Set([1, 2, 3, 4]);
@@ -298,9 +298,9 @@ const obj = {
 console.log(obj[sym1]); // value1
 </pre>
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>2. Manipulating Advanced Data Types</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - Using Sets: You can perform operations like union, intersection, and difference by 
     combining Sets.
@@ -309,10 +309,11 @@ console.log(obj[sym1]); // value1
   - Using Symbols: Symbols can be used to create private properties in objects, 
     enhancing encapsulation.
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>3. Using GitHub for Code Management</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Creating a Repository</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 1.    Sign in to GitHub: Go to GitHub and sign in or create an account.
 2.    Create a New Repository:
@@ -353,7 +354,9 @@ git add sets.js maps.js symbols.js
 git commit -m "Add examples for Sets, Maps, and Symbols"
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Pushing to GitHub</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - Push your changes to the remote repository:
 
@@ -361,7 +364,9 @@ git commit -m "Add examples for Sets, Maps, and Symbols"
 git push origin main
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Collaborating</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - If you're working with others, you can create branches for new features or fixes:
 
@@ -419,10 +424,11 @@ To understand asynchronous JavaScript, we can break it down into several sub-pro
   - A callback is a function passed as an argument to another function, which is then 
     executed after some operation has been completed.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example of a callback:</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>javascript</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>
 function fetchData(callback) {
     setTimeout(() => {
@@ -434,7 +440,6 @@ fetchData((data) => {
     console.log(data); // Outputs: Data received
 });
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>8. Promises</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -452,9 +457,11 @@ fetchData((data) => {
   - Fulfilled: The operation completed successfully.
   - Rejected: The operation failed.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Creating and using a Promise:</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>javascript</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>
 const fetchData = () => {
     return new Promise((resolve, reject) => {
@@ -557,7 +564,9 @@ Asynchronous JavaScript is essential for building responsive web applications. B
 understanding the event loop, callbacks, promises, async/await, and error handling, 
 you can effectively manage asynchronous operations in your code.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>3. Object-Oriented Programming (OOP):</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Object-Oriented Programming (OOP) is a programming paradigm that uses "objects" to 
 represent data and methods to manipulate that data. OOP is designed to improve code 
 organization, reusability, and maintainability. To understand OOP, we can break it 
@@ -591,7 +600,9 @@ b. Classes
     that the created objects will have.
   - Example:
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>javascript</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ```
 class Car {
@@ -971,10 +982,14 @@ functions.
 Also, JavaScript has a const declaration, which is perfect for functional programming 
 since we won’t be mutating any data.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Pure Functions in JavaScript</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Let’s look at some of the pure functions (methods) given by JavaScript.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Filter</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 As the name suggests, this filters the array.
 
@@ -994,7 +1009,9 @@ const filterEven = x => x%2 === 0;
 Notice that filterEven is a pure function. If it had been impure, then it would have 
 made the entire filter call impure.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Map</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 map maps each item of array to a function and creates a new array based on the return 
 values of the function calls.
@@ -1007,7 +1024,9 @@ const double = x => 2 * x;
 // [2, 4, 6]
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Reduce</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 reduce reduces the array to a single value.
 
 ```
@@ -1061,7 +1080,9 @@ With the advent of ES6, this can also be done using the spread operator.
 const newObj = {...obj};
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Creating Your Own Pure Function</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We can create our pure function as well. Let’s do one for duplicating a string n 
 number of times.
 
@@ -1303,7 +1324,9 @@ these things happens:
   - it reaches the top level of code (which causes the program to terminate and show 
     an error in the console, as demonstrated in the CodePen example above)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Catching Exceptions</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 We can add an exception handler to the divide() function with a try…catch block:
 
@@ -1472,7 +1495,9 @@ const n = 123.456;
 console.log( n.toFixed(-1) ); // <i>RangeError</i>
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>URIError</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 An error thrown by URI-handling functions such as encodeURI() and decodeURI() when they 
 encounter malformed URIs:
@@ -1518,7 +1543,9 @@ such as a large array or “too much recursion”.
 Finally, there is a generic Error object which is most often used when implementing 
 our own exceptions … which we’ll cover next.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Throwing Our Own Exceptions</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 We can throw our own exceptions when an error occurs — or should occur. For example:
   - our function isn’t passed valid parameters
@@ -1965,7 +1992,9 @@ allows for a high degree of customization.
   - Pros: Well-suited for library development, produces smaller bundle sizes.
   - Cons: May not be as well-suited for large, complex projects.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Parcel</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Parcel is a relatively new module bundler that aims to provide a simple and easy-to-use 
 experience. It has a minimal configuration and can handle most common use cases out of 
 the box. Moreover, Parcel has a built-in development server, which can be useful for 
@@ -2086,7 +2115,9 @@ approach combining programming, unit test creation, and refactoring.
 	  works correctly at each process stage, from adding items to the cart to completing 
 	  the purchase.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Three Phases of Test Driven Development</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 1.    Create precise tests: Developers need to create exact unit tests to verify the 
       functionality of specific features. They must ensure that the test compiles so 
@@ -2122,29 +2153,31 @@ JavaScript interacts with the browser and web pages through Browser APIs and DOM
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>DOM Manipulation:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - The Document Object Model (DOM) represents the HTML structure of a web page as a 
-    tree-like structure, where each HTML element is a node in the tree.
-  - JavaScript can use the DOM API to:
-    - Select elements: Access specific elements using methods like getElementById, 
-	  querySelector, and querySelectorAll.
-	- Modify content: Change the text content of an element using properties like 
-	  innerText or textContent.
-	- Manipulate attributes: Add, remove, or modify attributes of elements (e.g., 
-	  src, class, id).
-	- Change styles: Modify the visual appearance of elements by manipulating their 
-	  CSS styles.
-	- Add/remove elements: Dynamically create new elements and insert them into the 
-	  DOM, or remove existing elements.
-	- Handle events: Respond to user interactions like clicks, mouse movements, and 
-	  keyboard presses.
-
+<ul>
+  <li>The Document Object Model (DOM) represents the HTML structure of a web page as a 
+    tree-like structure, where each HTML element is a node in the tree.</li>
+  <li>JavaScript can use the DOM API to:
+    <ul>
+	  <li>Select elements: Access specific elements using methods like getElementById, 
+	    querySelector, and querySelectorAll.</li>
+	  <li>Modify content: Change the text content of an element using properties like 
+	    innerText or textContent.</li>
+	  <li>Manipulate attributes: Add, remove, or modify attributes of elements (e.g., 
+	    src, class, id).</li>
+	  <li>Change styles: Modify the visual appearance of elements by manipulating their 
+	    CSS styles.</li>
+	  <li>Add/remove elements: Dynamically create new elements and insert them into the 
+	    DOM, or remove existing elements.</li>
+	  <li>Handle events: Respond to user interactions like clicks, mouse movements, and 
+	    keyboard presses.</li>
+    </ul>
+  </li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Example:</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>JavaScript</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <pre>
 // <i>Select an element by its ID</i>
 const myElement = document.getElementById("myElement");
@@ -2160,18 +2193,17 @@ myElement.addEventListener("click", function() {
   alert("Element clicked!");
 });
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Important Points:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - DOM Manipulation can be expensive: Excessive DOM manipulation can negatively impact 
-    website performance.
-  - Modern JavaScript frameworks: Libraries like React, Vue, and Angular provide more 
-    efficient ways to manage the DOM by using a virtual DOM.
-  - Understanding CSS selectors: Being proficient in CSS selectors is crucial for 
-    effectively selecting elements in the DOM.
-
+<ul>
+  <li>DOM Manipulation can be expensive: Excessive DOM manipulation can negatively impact 
+    website performance.</li>
+  <li>Modern JavaScript frameworks: Libraries like React, Vue, and Angular provide more 
+    efficient ways to manage the DOM by using a virtual DOM.</li>
+  <li>Understanding CSS selectors: Being proficient in CSS selectors is crucial for effectively 
+    selecting elements in the DOM.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Practical Examples Comparing the BOM and DOM:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
