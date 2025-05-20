@@ -206,7 +206,7 @@ managing your code and collaborating on projects related to these topics.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>1. Advanced Data Types</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>Sets</h4>
+<h3>Sets</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Definition: A Set is a collection of values where each value must be unique. It 
@@ -226,7 +226,7 @@ managing your code and collaborating on projects related to these topics.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>javascript</h4>
+<h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>
@@ -259,7 +259,7 @@ console.log(mySet.size); // <i>4</i>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>javascript</h4>
+<h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>
 const myMap = new Map();
@@ -269,7 +269,7 @@ console.log(myMap.get('name')); // Alice
 console.log(myMap.size); // 2
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>Symbols</h4>
+<h3>Symbols</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Definition: A Symbol is a unique and immutable primitive value that can be used as 
@@ -285,7 +285,7 @@ console.log(myMap.size); // 2
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>javascript</h4>
+<h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>
 const sym1 = Symbol('description');
@@ -427,7 +427,7 @@ To understand asynchronous JavaScript, we can break it down into several sub-pro
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example of a callback:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>javascript</h4>
+<h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>
 function fetchData(callback) {
@@ -460,7 +460,7 @@ fetchData((data) => {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Creating and using a Promise:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>javascript</h4>
+<h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>
 const fetchData = () => {
@@ -511,7 +511,7 @@ myPromise.then((result) => {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>javascript</h4>
+<h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>
@@ -581,10 +581,9 @@ a. Objects
   - Example:
   
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>javascript</h4>
+<h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-```
+<pre>
 const car = {
     make: 'Toyota',
     model: 'Corolla',
@@ -593,7 +592,7 @@ const car = {
         console.log('Car started');
     }
 };
-```
+</pre>
 
 b. Classes
   - Definition: A class is a blueprint for creating objects. It defines properties and methods 
@@ -601,10 +600,9 @@ b. Classes
   - Example:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>javascript</h4>
+<h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-```
+<pre>
 class Car {
   constructor(make, model, year) {
     this.make = make;
@@ -618,8 +616,7 @@ class Car {
 }
 
 const myCar = new Car('Toyota', 'Corolla', 2020);
-```
-
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>2. OOP Principles</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -630,10 +627,10 @@ a. Encapsulation
   - Example: Using private properties in a class:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>javascript</h4>
+<h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-```
+<pre>
 class BankAccount {
   #balance; // Private property
   constructor(initialBalance) {
@@ -649,7 +646,7 @@ class BankAccount {
 const account = new BankAccount(100);
 account.deposit(50);
 console.log(account.getBalance()); // Outputs: 150
-```
+</pre>
 
 b. Inheritance
 
@@ -658,10 +655,10 @@ b. Inheritance
   - Example:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>javascript</h4>
+<h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-```
+<pre>
 class Vehicle {
   constructor(make, model) {
     this.make = make;
@@ -685,7 +682,7 @@ class Car extends Vehicle {
 const myCar = new Car('Toyota', 'Corolla', 2020);
 myCar.start(); // Outputs: Vehicle started
 myCar.honk();  // Outputs: Honk! Honk!
-```
+</pre>
 
 c. Polymorphism
   - Definition: Polymorphism allows methods to do different things based on the object 
@@ -694,34 +691,30 @@ c. Polymorphism
   - Example:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>javascript</h4>
+<h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-```
+<pre>
 class Animal {
   speak() {
     console.log('Animal speaks');
   }
 }
-
 class Dog extends Animal {
   speak() {
     console.log('Woof! Woof!');
   }
 }
-
 class Cat extends Animal {
   speak() {
     console.log('Meow!');
   }
 }
-
 const myDog = new Dog();
 const myCat = new Cat();
 
 myDog.speak(); // Outputs: Woof! Woof!
 myCat.speak(); // Outputs: Meow!
-```
+</pre>
 
 d. Abstraction
   - Definition: Abstraction is the concept of hiding the complex implementation details 
@@ -730,10 +723,9 @@ d. Abstraction
   - Example:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>javascript</h4>
+<h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-```
+<pre>
 class Shape {
   area() {
     throw new Error('Method "area()" must be implemented');
@@ -752,7 +744,7 @@ class Rectangle extends Shape {
 }
 const myRectangle = new Rectangle(5, 10);
 console.log(myRectangle.area()); // Outputs: 50
-```
+</pre>
 
 3. Benefits of OOP
   - Modularity: Code is organized into classes and objects, making it easier to manage.
@@ -812,15 +804,14 @@ concept in functional programming.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Consider this analogy:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-```
+<pre>
 // <i>Function as a first-class citizen</i>
 const square = (x) => x * x;
 const add = (a, b) => a + b;
 const mathOperation = square;
 
 console.log(mathOperation(5)); // <i>Output: 25</i>
-```
+</pre>
 
 Here, mathOperation is a variable that holds a reference to the square function. It's 
 like storing a cooking recipe for later use.
@@ -829,14 +820,14 @@ Higher-order functions are functions that operate on other functions, either by 
 them as arguments or returning them as results. This is akin to having a recipe that 
 asks for another recipe.
 
-```
+<pre>
 // <i>Function as a first-class citizen</i>
 const square = (x) => x * x;
 const add = (a, b) => a + b;
 const mathOperation = square;
 
 console.log(mathOperation(5)); // <i>Output: 25</i>
-```
+</pre>
 
 In this example, the calculate function takes an operation (a function) and 
 two arguments. 
@@ -922,26 +913,26 @@ understand the difference between pure and impure functions.
 Pure functions take some input and give a fixed output. Also, they cause no side effects 
 in the outside world.
 
-```
+<pre>
 const add = (a, b) => a + b;
-```
+</pre>
 
 Here, add is a pure function. This is because, for a fixed value of a and b, the output 
 will always be the same.
 
-```
+<pre>
 const SECRET = 42;  
 const getId = (a) => SECRET * a;
-```
+</pre>
 
 getId is not a pure function. The reason being that it uses the global variable SECRET 
 for computing the output. If SECRET were to change, the getId function will return a 
 different value for the same input. Thus, it is not a pure function.
 
-```
+<pre>
 let id_count = 0;
 const getId = () => ++id_count;
-```
+</pre>
 
 This is also an impure function, and that too for a couple of reasons—(1) it uses a 
 non-local variable for computing its output, and (2) it creates a side effect in the 
@@ -970,9 +961,9 @@ When we satisfy these conditions, we can say our code is functional.
 
 JavaScript already has some functions that enable functional programming.
 
-```
+<pre>
 Example: String.prototype.slice, Array.protoype.filter, Array.prototype.join.
-```
+</pre>
 
 On the other hand, Array.prototype.forEach, Array.prototype.push are impure functions.
 One can argue that Array.prototype.forEach is not an impure function by design but 
@@ -993,18 +984,17 @@ Let’s look at some of the pure functions (methods) given by JavaScript.
 
 As the name suggests, this filters the array.
 
-```
+<pre>
 array.filter(condition);
-```
+</pre>
 
 The condition here is a function that gets each item of the array, and it should 
 decide whether to keep the item or not and return the truthy boolean value for that.
 
-```
+<pre>
 const filterEven = x => x%2 === 0;  
-[1, 2, 3].filter(filterEven);  
-// [2]
-```
+[1, 2, 3].filter(filterEven);  // [2]
+</pre>
 
 Notice that filterEven is a pure function. If it had been impure, then it would have 
 made the entire filter call impure.
@@ -1016,33 +1006,32 @@ made the entire filter call impure.
 map maps each item of array to a function and creates a new array based on the return 
 values of the function calls.
 
-```
+<pre>
 array.map(mapper)
 mapper is a function that takes an item of an array as input and returns the output.
 const double = x => 2 * x;  
 [1, 2, 3].map(double);  
 // [2, 4, 6]
-```
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Reduce</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 reduce reduces the array to a single value.
 
-```
+<pre>
 array.reduce(reducer);
-```
+</pre>
 
 reducer is a function that takes the accumulated value and the next item in the array 
 and returns the new value. It is called like this for all values in the array, one 
 after another.
 
-```
-const sum = (accumulatedSum, arrayItem) => accumulatedSum + arrayItem  
-[1, 2, 3].reduce(sum);
+<pre>
+const sum = (accumulatedSum, arrayItem) =&gt; accumulatedSum + arrayItem  
+&lbrack;1, 2, 3&rbrack;.reduce(sum);
 // 6
-```
- 
+</pre> 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Concat</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1050,46 +1039,44 @@ const sum = (accumulatedSum, arrayItem) => accumulatedSum + arrayItem
 concat adds new items to an existing array to create a new array. It’s different 
 from push() in the sense that push() mutates data, which makes it impure.
 
-```
-[1, 2].concat([3, 4])  
-// [1, 2, 3, 4]
-```
+<pre>
+&lbrack;1, 2&rbrack;.concat(&lbrack;3, 4&rbrack;)  
+// &lbrack;1, 2, 3, 4&rbrack;
+</pre>
 
 You can also do the same using the spread operator.
 
-```
-[1, 2, ...[3, 4]]
-Object.assign
-```
+<pre>
+&lbrack;1, 2, ...&lbrack;3, 4&rbrack;&rbrack;
+</pre>
 
 Object.assign copies values from the provided object to a new object. Since functional 
 programming is predicated on immutable data, we use it to make new objects based on 
 existing objects.
 
-```
+<pre>
 const obj = {a : 2};  
 const newObj = Object.assign({}, obj);  
 newObj.a = 3;  
 obj.a;  
 // 2
-```
+</pre>
 
 With the advent of ES6, this can also be done using the spread operator.
 
-```
+<pre>
 const newObj = {...obj};
-```
-
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Creating Your Own Pure Function</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We can create our pure function as well. Let’s do one for duplicating a string n 
 number of times.
 
-```
-const duplicate = (str, n) =>
-  n < 1 ? '' : str + duplicate(str, n-1);
-```
+<pre>
+const duplicate = (str, n) =&gt;
+  n &lt; 1 ? '' : str + duplicate(str, n-1);
+</pre>
 
 This function duplicates a string n times and returns a new string.
 
@@ -1151,22 +1138,22 @@ Currying means breaking down a function that takes multiple arguments into one o
 multiple levels of higher-order functions.
 Let’s take the add function.
 
-```
+<pre>
 const add = (a, b) => a + b;
-```
+</pre>
 
 When we are to curry it, we rewrite it distributing arguments into multiple levels 
 as follows.
 
-```
+<pre>
 const add = a => {
-    return b => {
-        return a + b;
-    };
+  return b => {
+    return a + b;
+  };
 };
 add(3)(4);  
 // 7
-```
+</pre>
 
 The benefit of currying is memoization. We can now memoize certain arguments in a 
 function call so that they can be reused later without duplication and re-computation.
@@ -1193,10 +1180,9 @@ We can also reformat our curried function to look succinct. This is because each
 of the currying function call is a single line return statement. Therefore, we can use 
 arrow functions in ES6 to refactor it as follows.
 
-```
+<pre>
 const add = a => b => a + b;
-```
-
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Composition</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1207,26 +1193,26 @@ To show an example, let’s create some functions.
 The first function is range, which takes a starting number a and an ending number b 
 and creates an array consisting of numbers from a to b.
 
-```
+<pre>
 const range = (a, b) => a > b ? [] : [a, ...range(a+1, b)];
-```
+</pre>
 
 Then we have a function multiply that takes an array and multiplies all the numbers in it.
 
-```
+<pre>
 const multiply = arr => arr.reduce((p, a) => p * a);
-```
+</pre>
 
 We will use these functions together to calculate factorial.
 
-```
+<pre>
 const factorial = n => multiply(range(1, n));
 factorial(5);
 // <i>120</i>
 
 factorial(6);
 // <i>720</i>
-```
+</pre>
 
 The above function for calculating factorial is similar to f(x) = g(h(x)), thus 
 demonstrating the composition property.
@@ -1356,7 +1342,7 @@ as divide(). It’s simpler to ensure dp is zero or higher, as we’ll see below
 We can define an optional finally {} block if we require code to run when either the 
 try or catch code executes:
 
-```
+<pre>
 function divide(v1, v2, dp) {
   try {
     return (v1 / v2).toFixed(dp);
@@ -1368,7 +1354,7 @@ function divide(v1, v2, dp) {
     console.log('done');
   }
 }
-```
+</pre>
 
 The console outputs "done", whether the calculation succeeds or raises an error. A 
 finally block typically executes actions which we’d otherwise need to repeat in both 
@@ -1462,11 +1448,11 @@ good code editor or linter can spot syntax errors before we attempt to run code.
 
 An error thrown when accessing a non-existent variable:
 
-```
+<pre>
 function inc() {
   value++; // <i>ReferenceError</i>
 }
-```
+</pre>
 
 Again, good code editors and linters can spot these issues.
 
@@ -1477,11 +1463,10 @@ Again, good code editors and linters can spot these issues.
 An error thrown when a value isn’t of an expected type, such as calling a non-existent 
 object method:
 
-```
+<pre>
 const obj = {};
 obj.missingMethod(); // <i>TypeError</i>
-```
-
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>RangeError</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1490,11 +1475,10 @@ An error thrown when a value isn’t in the set or range of allowed values. The
 toFixed() method used above generates this error, because it expects a value 
 typically between 0 and 100:
 
-```
+<pre>
 const n = 123.456;
 console.log( n.toFixed(-1) ); // <i>RangeError</i>
-```
-
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>URIError</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1502,10 +1486,9 @@ console.log( n.toFixed(-1) ); // <i>RangeError</i>
 An error thrown by URI-handling functions such as encodeURI() and decodeURI() when they 
 encounter malformed URIs:
 
-```
+<pre>
 const u = decodeURIComponent('%'); // <i>URIError</i>
-```
-
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>EvalError</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1513,9 +1496,9 @@ const u = decodeURIComponent('%'); // <i>URIError</i>
 An error thrown when passing a string containing invalid JavaScript code to the eval() 
 function:
 
-```
+<pre>
 eval('console.logg x;'); // <i>EvalError</i>
-```
+</pre>
 
 Note: please don’t use eval()! Executing arbitrary code contained in a string possibly 
 constructed from user input is far too dangerous!
@@ -1554,34 +1537,34 @@ We can throw our own exceptions when an error occurs — or should occur. For ex
 
 The throw statement actually accepts any value or object. For example:
 
-```
+<pre>
 throw 'A simple error string';
 throw 42;
 throw true;
 throw { message: 'An error', name: 'MyError' };
-```
+</pre>
 
 Exceptions are thrown to every function on the call stack until they’re intercepted by 
 an exception (catch) handler. More practically, however, we’ll want to create and throw 
 an Error object so they act identically to standard errors thrown by JavaScript.
 We can create a generic Error object by passing an optional message to the constructor:
 
-```
+<pre>
 throw new Error('An error has occurred');
-```
+</pre>
 
 We can also use Error like a function without new. It returns an Error object identical 
 to that above:
 
-```
+<pre>
 throw Error('An error has occurred');
-```
+</pre>
 
 We can optionally pass a filename and a line number as the second and third parameters:
 
-```
+<pre>
 throw new Error('An error has occurred', 'script.js', 99);
-```
+</pre>
 
 This is rarely necessary, since they default to the file and line where we threw the 
 Error object. (They’re also difficult to maintain as our files change!)
@@ -1589,9 +1572,9 @@ We can define generic Error objects, but we should use a standard Error type whe
 possible. 
 For example:
 
-```
+<pre>
 throw new RangeError('Decimal places must be 0 or greater');
-```
+</pre>
 
 All Error objects have the following properties, which we can examine in a catch block:
 
@@ -1608,7 +1591,7 @@ The following non-standard properties are also supported in Firefox:
 We can change the divide() function to throw a RangeError when the number of decimal 
 places isn’t a number, is less than zero, or is greater than eight:
 
-```
+<pre>
 // <i>Division calculation</i>
 function divide(v1, v2, dp) {
 
@@ -1617,7 +1600,7 @@ function divide(v1, v2, dp) {
   }
   return (v1 / v2).toFixed(dp);
 }
-```
+</pre>
 
 Similarly, we could throw an Error or TypeError when the dividend value isn’t a 
 number to prevent NaN results:
@@ -1911,7 +1894,7 @@ code for modern web development. Here's a breakdown:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example (ES Modules):</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h4>JavaScript</h4>
+<h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>
