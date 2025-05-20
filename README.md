@@ -1,15 +1,20 @@
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of JS-Intermediate-JS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h1>JS Intermediate JavaScript</h1>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><small><small>(JS-Int-JavaScript)</small></small</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Intermediate/advanced material</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>JavaScript Design Patterns.</li>
   <li>Professor Frisby's Mostly Adequate Guide to Functional Programming.</li>
   <li>What the heck is the event loop anyway? – JS Conf talk about the event loop.</li>
   <li>Deep JavaScript: Theory & Techniques.</li>
 </ul>
-  
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Key Concepts:</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Objects: Objects are the fundamental building blocks of JavaScript. They are 
     collections of key-value pairs, where keys are properties (variables) and values 
@@ -23,8 +28,9 @@
     syntactically familiar way to define objects and their behavior. However, under 
     the hood, they still utilize prototypes.</li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1">1. Advanced Data Types and Manipulation:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Explore advanced data types like Sets, Maps, and Symbols.</li>
   <li>Learn how to manipulate arrays and objects using advanced techniques such as 
@@ -32,8 +38,9 @@
   <li>Understand how to use the Array methods like map, filter, reduce, and forEach 
     effectively.</li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2">2. Asynchronous JavaScript:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Dive into asynchronous programming concepts like callbacks, promises, and 
     async/await.</li>
@@ -41,15 +48,17 @@
     promises and error handling.</li>
   <li>Understand how to make API calls and handle responses asynchronously.</li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3">3. Object-Oriented Programming (OOP):</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Learn about OOP principles like encapsulation, inheritance, and polymorphism.</li>
   <li>Explore how to create and use classes, constructors, and prototypes in JavaScript.</li>
   <li>Understand the concept of "this" and how it behaves in different contexts.</li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4">4. Functional Programming:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Functional programming in JavaScript is all about treating your code as a set of 
 independent, reusable functions that operate on data without side effects</p>
 
@@ -61,16 +70,18 @@ independent, reusable functions that operate on data without side effects</p>
   <li>Understand the benefits of functional programming and how it can improve 
     code readability and maintainability.</li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5">5. Error Handling and Debugging:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Learn how to handle and throw errors effectively in JavaScript.</li>
   <li>Explore debugging techniques using browser developer tools and console statements.</li>
   <li>Understand how to use try-catch blocks to handle exceptions and prevent application 
     crashes.</li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6">6. Modules and Bundlers:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Learn how to organize your code into modules for better code organization and 
     reusability.</li>
@@ -78,8 +89,9 @@ independent, reusable functions that operate on data without side effects</p>
   <li>Understand how to use bundlers like Webpack or Rollup to bundle and optimize 
     your JavaScript code.</li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch7">7. Testing and Test-Driven Development (TDD):</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Learn how to write unit tests using frameworks like Jest or Mocha.</li>
   <li>Understand the principles of TDD and how to write tests before implementing 
@@ -87,8 +99,9 @@ independent, reusable functions that operate on data without side effects</p>
   <li>Explore techniques like mocking and stubbing to isolate dependencies during 
     testing.</li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch8">8. Browser APIs and DOM Manipulation:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Learn how to interact with the Document Object Model (DOM) using JavaScript.</li>
   <li>Explore browser APIs like Fetch API, Local Storage, and Geolocation.</li>
@@ -99,9 +112,9 @@ independent, reusable functions that operate on data without side effects</p>
 <p>Remember, practice is key to mastering JavaScript. Work on small projects, solve 
 coding challenges, and build real-world applications to solidify your understanding 
 of these concepts. Good luck with your intermediate JavaScript education!</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Here are more details on each topic:</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ol type="1">
   <li>Advanced Data Types and Manipulation:
     <ul>
@@ -190,10 +203,11 @@ improve your skills as an intermediate JavaScript developer. Certainly! Let's de
 deeper into Advanced Data Types and Manipulation in JavaScript, specifically focusing on 
 Sets, Maps, and Symbols. Additionally, I'll provide guidance on how to use GitHub for 
 managing your code and collaborating on projects related to these topics.</p>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>1. Advanced Data Types</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Sets</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Definition: A Set is a collection of values where each value must be unique. It 
     can store any type of data (primitive values or object references).</li>
@@ -209,8 +223,9 @@ managing your code and collaborating on projects related to these topics.</p>
     </ul>
   </li>
 </ul>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <h4>javascript</h4>
 
@@ -222,7 +237,9 @@ console.log(mySet.has(3)); // <i>true</i>
 console.log(mySet.size); // <i>4</i>
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Maps</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Definition: A Map is a collection of key-value pairs where keys can be of any type 
     (including objects), and each key must be unique.</li>
@@ -239,11 +256,11 @@ console.log(mySet.size); // <i>4</i>
     </ul>
   </li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example:</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>javascript</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>
 const myMap = new Map();
 myMap.set('name', 'Alice');
@@ -251,8 +268,9 @@ myMap.set('age', 25);
 console.log(myMap.get('name')); // Alice
 console.log(myMap.size); // 2
 </pre>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Symbols</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Definition: A Symbol is a unique and immutable primitive value that can be used as 
     an identifier for object properties.</li>
@@ -264,11 +282,11 @@ console.log(myMap.size); // 2
 	</ul>
   </li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example:</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>javascript</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>
 const sym1 = Symbol('description');
 const sym2 = Symbol('description');
@@ -303,7 +321,9 @@ console.log(obj[sym1]); // value1
   - Optionally, add a description and choose whether it should be public or private.
   - Click "Create repository."
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Cloning the Repository</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - Use Git to clone the repository to your local machine:
 
@@ -311,8 +331,9 @@ console.log(obj[sym1]); // value1
 git clone https://github.com/yourusername/advanced-data-types.git
 cd advanced-data-types
 </pre>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Adding Code</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - Create a new JavaScript file (e.g., sets.js, maps.js, symbols.js) and implement 
     examples of Sets, Maps, and Symbols.
@@ -322,7 +343,9 @@ cd advanced-data-types
 git add sets.js maps.js symbols.js
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Committing Changes</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - Commit your changes with a meaningful message:
 
@@ -348,9 +371,9 @@ git checkout -b feature/sets-implementation
 
   - After making changes, push the branch and create a pull request on GitHub for review.
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>4. Resources for Learning</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   - MDN Web Docs: Comprehensive documentation on Sets, Maps, and Symbols.
   - JavaScript.info: A great resource for in-depth tutorials on advanced JavaScript topics.
   
@@ -358,9 +381,9 @@ By using GitHub to manage your code, you can easily track changes, collaborate w
 others, and showcase your work. This approach will help you solidify your understanding 
 of advanced data types in JavaScript while also gaining experience with version control 
 and collaboration tools.
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>5. Asynchronous JavaScript</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Asynchronous JavaScript is a programming paradigm that allows JavaScript to perform tasks 
 without blocking the execution of other code. This is particularly important in web 
 development, where you want to maintain a responsive user interface while performing tasks 
@@ -371,11 +394,14 @@ To understand asynchronous JavaScript, we can break it down into several sub-pro
 <h2>6. Understanding the Event Loop</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>What is the Event Loop?</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - The event loop is a mechanism that allows JavaScript to perform non-blocking 
     operations by using a single-threaded model.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>How does it work?</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - JavaScript executes code in a call stack. When asynchronous operations are initiated 
     (like fetching data), they are sent to the Web APIs (like the browser's networking 
@@ -384,10 +410,11 @@ To understand asynchronous JavaScript, we can break it down into several sub-pro
   - The event loop continuously checks the call stack and the message queue, executing 
     the callback when the call stack is empty.
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>7. Callback Functions</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>What are callbacks?</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - A callback is a function passed as an argument to another function, which is then 
     executed after some operation has been completed.
@@ -408,16 +435,18 @@ fetchData((data) => {
 });
 </pre>
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>8. Promises</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>What are Promises?</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - A Promise is an object representing the eventual completion (or failure) of an 
     asynchronous operation and its resulting value.
 	
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>States of a Promise:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - Pending: The initial state, neither fulfilled nor rejected.
   - Fulfilled: The operation completed successfully.
@@ -444,7 +473,9 @@ fetchData()
     .catch(error => console.error(error));
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>javascript, another example</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>
 let myPromise = new Promise((resolve, reject) => {
@@ -456,21 +487,25 @@ myPromise.then((result) => {
     console.log(result); // Output after 2 seconds : 'Promise resolved'
 });
 </pre>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>9. Async/Await</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>What is Async/Await?</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   - Async/Await is a syntactic sugar built on top of Promises that allows you to write 
     asynchronous code in a more synchronous fashion.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>How to use Async/Await:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   - You define a function with the async keyword, and within that function, you can use 
     the await keyword to pause execution until the Promise is resolved.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example:</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>javascript</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>
 const fetchData = () => {
@@ -490,9 +525,9 @@ const getData = async () => {
 };
 getData();
 </pre>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>10. Error Handling</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - Error handling in callbacks:
   - Typically done by passing an error as the first argument to the callback.
@@ -514,7 +549,9 @@ getData();
   - Working with timers and intervals:
   - Use setTimeout and setInterval for delayed or repeated execution.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Conclusion</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Asynchronous JavaScript is essential for building responsive web applications. By 
 understanding the event loop, callbacks, promises, async/await, and error handling, 
@@ -534,7 +571,9 @@ a. Objects
     and methods (functions) that define its behavior.
   - Example:
   
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>javascript</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ```
 const car = {
@@ -570,16 +609,18 @@ class Car {
 const myCar = new Car('Toyota', 'Corolla', 2020);
 ```
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>2. OOP Principles</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 a. Encapsulation
   - Definition: Encapsulation is the bundling of data (attributes) and methods 
     (functions) that operate on that data within a single unit (class). It restricts 
 	direct access to some of an object's components.
   - Example: Using private properties in a class:
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>javascript</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ```
 class BankAccount {
@@ -605,7 +646,9 @@ b. Inheritance
     methods from another class (parent class). This promotes code reusability.
   - Example:
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>javascript</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ```
 class Vehicle {
@@ -639,7 +682,9 @@ c. Polymorphism
 	can provide a specific implementation of a method).
   - Example:
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>javascript</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ```
 class Animal {
@@ -673,7 +718,9 @@ d. Abstraction
 	abstract classes or interfaces.
   - Example:
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>javascript</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ```
 class Shape {
@@ -713,24 +760,28 @@ console.log(myRectangle.area()); // Outputs: 50
   - Software Engineering: OOP is used in designing complex software systems, making 
     them easier to understand and maintain.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Conclusion</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Object-Oriented Programming is a powerful paradigm that helps in organizing code, 
 promoting reusability, and enhancing maintainability. By understanding the key 
 concepts and principles of OOP, developers can create robust and scalable applications.
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>4. Functional Programming:</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Introduction</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Functional programming is a powerful paradigm that has gained significant popularity 
 in recent years, and it's a valuable approach to writing clean, maintainable, and 
 bug-free code in JavaScript.
 In this article, we will explore the core concepts of functional programming and 
 provide practical JavaScript examples to help you grasp these concepts more effectively.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Understanding Functional Programming</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Imagine your JavaScript code as a series of cooking instructions. In the traditional, 
 imperative approach, you might follow a recipe step by step, using various ingredients, 
@@ -740,13 +791,16 @@ functional ingredients. Each function takes some ingredients and transforms them
 new dish without altering the original ingredients. This immutability is a fundamental 
 concept in functional programming.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>First-Class Functions and Higher-Order Functions</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In JavaScript, functions are first-class citizens, which means they can be assigned to 
 variables, passed as arguments, and returned from other functions. This is a crucial 
 concept in functional programming. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Consider this analogy:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ```
 // <i>Function as a first-class citizen</i>
@@ -777,7 +831,9 @@ In this example, the calculate function takes an operation (a function) and
 two arguments. 
 It's like creating a new dish by following the instructions of another recipe.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Immutability and Pure Functions</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In functional programming, immutability is key. Think of your data as an unchangeable 
 ingredient, and functions as your cooking instructions. Avoid modifying the original 
 data; instead, create new data structures with the changes.
@@ -802,7 +858,9 @@ console.log(double(3)); // <i>Output: 6</i>
 console.log(double(3)); // <i>Output: 6</i>
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Map, Filter, and Reduce</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Map, filter, and reduce are fundamental array methods in JavaScript that can greatly 
 simplify your code and are core tools in functional programming.
@@ -822,8 +880,9 @@ console.log(filteredIngredients); // <i>Output: [2, 4]</i>
 console.log(reducedIngredients); // <i>Output: 15</i>
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Conclusion</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Functional programming in JavaScript is all about treating your code as a set of 
 independent, reusable functions that operate on data without side effects. By 
 understanding first-class functions, higher-order functions, immutability, pure 
@@ -845,7 +904,9 @@ In the end, we will explore different concepts associated with functional progra
 why they are so powerful. Before getting into functional programming, though, one needs to 
 understand the difference between pure and impure functions.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Pure vs. Impure Functions</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Pure functions take some input and give a fixed output. Also, they cause no side effects 
 in the outside world.
@@ -892,7 +953,9 @@ They are as follows.
 
 When we satisfy these conditions, we can say our code is functional.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Functional Programming in JavaScript</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 JavaScript already has some functions that enable functional programming.
 
@@ -961,7 +1024,9 @@ const sum = (accumulatedSum, arrayItem) => accumulatedSum + arrayItem
 // 6
 ```
  
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Concat</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 concat adds new items to an existing array to create a new array. It’s different 
 from push() in the sense that push() mutates data, which makes it impure.
@@ -1012,7 +1077,9 @@ duplicate('hooray!', 3)
 // <i>hooray!hooray!hooray!</i>
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Higher-order Functions</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Higher-order functions are functions that accept a function as an argument and return 
 a function. Often, they are used to add to the functionality of a function.
 
@@ -1056,7 +1123,9 @@ withLog(hype)('Sale');
 // <i>Sale!!!</i>
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Currying</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Currying means breaking down a function that takes multiple arguments into one or 
 multiple levels of higher-order functions.
 Let’s take the add function.
@@ -1107,7 +1176,9 @@ arrow functions in ES6 to refactor it as follows.
 const add = a => b => a + b;
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Composition</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In mathematics, composition is defined as passing the output of one function into input 
 of another so as to create a combined output. The same is possible in functional 
 programming since we are using pure functions.
@@ -1139,7 +1210,9 @@ factorial(6);
 The above function for calculating factorial is similar to f(x) = g(h(x)), thus 
 demonstrating the composition property.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 5. Error Handling and Debugging:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Error handling and debugging are crucial aspects of JavaScript development that help 
 identify and resolve issues in the code. Proper error handling ensures that unexpected 
 errors are caught and gracefully handled, while effective debugging techniques help 
@@ -1149,7 +1222,9 @@ statement lets you create your own custom error. Technically you can throw your 
 exception (throw an error). The exception can be a JavaScript Number, String, Boolean, 
 or Object.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Debugging Techniques in Programming:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 1.    Breakpoints: By setting breakpoints in the code, you can pause the program at specific 
       points, check variables, and closely examine the program's current state. ...
@@ -1188,7 +1263,9 @@ It’s therefore necessary to catch errors as they occur and determine the best 
 Raising and catching errors in a JavaScript application can be daunting at first, but 
 it’s possibly easier than you expect.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>How JavaScript Processes Errors</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 When a JavaScript statement results in an error, it’s said to throw an exception. 
 JavaScript creates and throws an Error object describing the error. We can see this in 
@@ -1278,7 +1355,9 @@ A try block requires either a catch block, a finally block, or both. Note that, 
 a finally block contains a return statement, that value becomes the return value for 
 the whole function; other return statements in try or catch blocks are ignored.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Nested Exception Handlers</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 What happens if we add an exception handler to the calling showResult() function?
 
@@ -1331,12 +1410,16 @@ function showResult() {
 }
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Standard JavaScript Error Types</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 When an exception occurs, JavaScript creates and throws an object describing the error 
 using one of the following types.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>SyntaxError</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 An error thrown by syntactically invalid code such as a missing bracket:
 
@@ -1350,7 +1433,9 @@ Note: languages such as C++ and Java report syntax errors during compilation. Ja
 is an interpreted language, so syntax errors aren’t identified until the code runs. Any 
 good code editor or linter can spot syntax errors before we attempt to run code.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>ReferenceError</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 An error thrown when accessing a non-existent variable:
 
@@ -1362,7 +1447,9 @@ function inc() {
 
 Again, good code editors and linters can spot these issues.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>TypeError</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 An error thrown when a value isn’t of an expected type, such as calling a non-existent 
 object method:
@@ -1372,7 +1459,9 @@ const obj = {};
 obj.missingMethod(); // <i>TypeError</i>
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>RangeError</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 An error thrown when a value isn’t in the set or range of allowed values. The 
 toFixed() method used above generates this error, because it expects a value 
@@ -1392,7 +1481,9 @@ encounter malformed URIs:
 const u = decodeURIComponent('%'); // <i>URIError</i>
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>EvalError</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 An error thrown when passing a string containing invalid JavaScript code to the eval() 
 function:
@@ -1404,19 +1495,25 @@ eval('console.logg x;'); // <i>EvalError</i>
 Note: please don’t use eval()! Executing arbitrary code contained in a string possibly 
 constructed from user input is far too dangerous!
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>AggregateError</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 An error thrown when several errors are wrapped in a single error. This is typically 
 raised when calling an operation such as Promise.all(), which returns results from any 
 number of promises.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>InternalError</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 A non-standard (Firefox only) error thrown when an error occurs internally in the 
 JavaScript engine. It’s typically the result of something taking too much memory, 
 such as a large array or “too much recursion”.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Error</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Finally, there is a generic Error object which is most often used when implementing 
 our own exceptions … which we’ll cover next.
@@ -1573,7 +1670,9 @@ It’s no longer necessary to place a try...catch block around the final return,
 should never generate an error. If one did occur, JavaScript would generate its own 
 error and have it handled by the catch block in showResult().
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Asynchronous Function Errors</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 We can’t catch exceptions thrown by callback-based asynchronous functions, because an 
 error is thrown after the try...catch block completes execution. This code looks 
 correct, but the catch block will never execute and the console displays an Uncaught 
@@ -1611,7 +1710,9 @@ asyncError(1000, e => {
 });
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Promise-based Errors</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Callbacks can become unwieldy, so it’s preferable to use promises when writing 
 asynchronous code. When an error occurs, the promise’s reject() method can return 
@@ -1667,7 +1768,9 @@ promise chain above:
 })();
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Exceptional Exception Handling</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Throwing Error objects and handling exceptions is easy in JavaScript:
 
@@ -1690,7 +1793,9 @@ Further information:
 
 Frequently Asked Questions (FAQs) on JavaScript 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Error Handling</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 What are the different types of errors in JavaScript?
 
@@ -1754,7 +1859,9 @@ catch (e) {
 In JavaScript, modules and bundlers play a crucial role in organizing and optimizing 
 code for modern web development. Here's a breakdown:
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Modules:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - What they are:
     Modules are self-contained units of code that encapsulate functionality. They allow 
@@ -1774,8 +1881,11 @@ code for modern web development. Here's a breakdown:
   - ES Modules: The standard module format in modern JavaScript, it uses import 
     and export statements.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example (ES Modules):</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>JavaScript</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>
 // module1.js
@@ -1787,7 +1897,9 @@ import { greet } from './module1.js';
 greet('World');
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Bundlers:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   - What they are:
     Bundlers are tools that take multiple JavaScript modules and combine them into a 
 	single file (or a few files) that can be efficiently loaded by a browser.
@@ -1807,7 +1919,9 @@ greet('World');
   - Vite: A fast development server and build tool that leverages native ES modules for 
     lightning-fast development. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>What are Module Bundlers used for?</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Module bundlers are used for several other purposes, including:
   - Transpiling, minifying, and optimizing code to improve performance.
@@ -1820,16 +1934,20 @@ Module bundlers are used for several other purposes, including:
   - Enabling the creation of libraries and frameworks that can be easily distributed 
     and used in other projects.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Popular Module Bundlers</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Webpack</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Webpack is one of the most popular module bundlers in the JavaScript community. It's 
 highly configurable and can handle a wide variety of use cases. Additionally, it has 
 a large community and a wide range of plugins available.
   - Pros: Highly configurable, a wide range of plugins available, large community.
   - Cons: May be difficult to set up and configure and can produce large bundle sizes.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Esbuild</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Esbuild is a relatively new module bundler that aims to provide a very fast and 
 efficient bundling. It's written in Go and focuses on providing great performance, 
 even for large projects. It has a plugin system and can be used with other tools 
@@ -1837,7 +1955,9 @@ like Rollup.
   - Pros: It's very fast, efficient, and lightweight.
   - Cons: Relatively new and not as widely adopted as other options.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Rollup</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Rollup is particularly well-suited for library development. It produces smaller bundle 
 sizes than some other bundlers, which can be beneficial for libraries that are intended 
 to be distributed widely. Additionally, Rollup has a plugin-based architecture that 
@@ -1853,7 +1973,9 @@ testing and debugging.
   - Pros: Minimal configuration, built-in development server.
   - Cons: May fall short for some advanced use cases.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Vite</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Vite is a lightweight module bundler that is designed for development speed. It uses 
 native ES modules in the browser and has a hot module replacement feature that allows 
 for fast development iterations.
@@ -1861,7 +1983,9 @@ for fast development iterations.
   - Cons: Limited in older browser support, and needs more community traction to become 
     sustainable.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Setting up a Module Bundler</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 We'll use Webpack as an example, to show you how to set up a module bundler for a simple 
 project:
@@ -1907,7 +2031,9 @@ module.exports = {
   4.    Finally, you can run the build script by running npm run build in your terminal, 
         and webpack will create a bundle.js file in the dist directory.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Naming Conflicts</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Module bundlers can potentially introduce naming conflicts. They occur when two or more 
 modules use the same variable or function name. These conflicts can cause unexpected 
@@ -1940,7 +2066,9 @@ approach combining programming, unit test creation, and refactoring.
     understanding. The primary intention of this technique is to modify or write new code 
 	only if the tests fail. This prevents duplication of test scripts.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Test Driven Development (TDD) Examples</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 1.    Calculator Function: When building a calculator function, a TDD approach would 
       involve writing a test case for the “add” function and then writing the code for 
@@ -1977,7 +2105,9 @@ The image below represents a high-level TDD approach toward development:
 
 JavaScript interacts with the browser and web pages through Browser APIs and DOM Manipulation.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Browser APIs:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - These are built-in interfaces provided by the browser that allow you to access various 
     functionalities like:
@@ -1989,7 +2119,9 @@ JavaScript interacts with the browser and web pages through Browser APIs and DOM
     - Web Audio API: Work with audio data in the browser.
     - WebRTC API: Enable real-time communication (e.g., video calls).
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>DOM Manipulation:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - The Document Object Model (DOM) represents the HTML structure of a web page as a 
     tree-like structure, where each HTML element is a node in the tree.
@@ -2007,9 +2139,11 @@ JavaScript interacts with the browser and web pages through Browser APIs and DOM
 	- Handle events: Respond to user interactions like clicks, mouse movements, and 
 	  keyboard presses.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Example:</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>JavaScript</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>
 // <i>Select an element by its ID</i>
@@ -2027,7 +2161,9 @@ myElement.addEventListener("click", function() {
 });
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Important Points:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - DOM Manipulation can be expensive: Excessive DOM manipulation can negatively impact 
     website performance.
@@ -2036,7 +2172,9 @@ myElement.addEventListener("click", function() {
   - Understanding CSS selectors: Being proficient in CSS selectors is crucial for 
     effectively selecting elements in the DOM.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Practical Examples Comparing the BOM and DOM:</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   - Accessing Window Properties with the BOM:
 
@@ -2061,3 +2199,4 @@ document.body.appendChild(newElement);
 </pre>
 
 <!-- last updated 12/1/2024 8:07pm -->
+<!-- last updated 5/20/2025 11:17am -->
