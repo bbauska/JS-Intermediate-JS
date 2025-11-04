@@ -798,41 +798,35 @@ console.log(myRectangle.area()); // Outputs: 50
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Conclusion</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Object-Oriented Programming is a powerful paradigm that helps in organizing code, 
+<p>Object-Oriented Programming is a powerful paradigm that helps in organizing code, 
 promoting reusability, and enhancing maintainability. By understanding the key 
-concepts and principles of OOP, developers can create robust and scalable applications.
-
+concepts and principles of OOP, developers can create robust and scalable applications.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>4. Functional Programming:</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Introduction</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Functional programming is a powerful paradigm that has gained significant popularity 
+<p>Functional programming is a powerful paradigm that has gained significant popularity 
 in recent years, and it's a valuable approach to writing clean, maintainable, and 
-bug-free code in JavaScript.
-In this article, we will explore the core concepts of functional programming and 
-provide practical JavaScript examples to help you grasp these concepts more effectively.
-
+bug-free code in JavaScript.</p>
+<p>In this article, we will explore the core concepts of functional programming and 
+provide practical JavaScript examples to help you grasp these concepts more effectively.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Understanding Functional Programming</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Imagine your JavaScript code as a series of cooking instructions. In the traditional, 
+<p>Imagine your JavaScript code as a series of cooking instructions. In the traditional, 
 imperative approach, you might follow a recipe step by step, using various ingredients, 
 tools, and changing the state of the dish as you go. This is similar to how procedural 
 code works. Functional programming, on the other hand, is more like cooking with 
 functional ingredients. Each function takes some ingredients and transforms them into a 
 new dish without altering the original ingredients. This immutability is a fundamental 
-concept in functional programming.
-
+concept in functional programming.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>First-Class Functions and Higher-Order Functions</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-In JavaScript, functions are first-class citizens, which means they can be assigned to 
+<p>In JavaScript, functions are first-class citizens, which means they can be assigned to 
 variables, passed as arguments, and returned from other functions. This is a crucial 
-concept in functional programming. 
-
+concept in functional programming.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Consider this analogy:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -845,12 +839,12 @@ const mathOperation = square;
 console.log(mathOperation(5)); // <i>Output: 25</i>
 </pre>
 
-Here, mathOperation is a variable that holds a reference to the square function. It's 
-like storing a cooking recipe for later use.
+<p>Here, mathOperation is a variable that holds a reference to the square function. It's 
+like storing a cooking recipe for later use.</p>
 
-Higher-order functions are functions that operate on other functions, either by taking 
+<p>Higher-order functions are functions that operate on other functions, either by taking 
 them as arguments or returning them as results. This is akin to having a recipe that 
-asks for another recipe.
+asks for another recipe.</p>
 
 <pre>
 // <i>Function as a first-class citizen</i>
@@ -861,16 +855,16 @@ const mathOperation = square;
 console.log(mathOperation(5)); // <i>Output: 25</i>
 </pre>
 
-In this example, the calculate function takes an operation (a function) and 
-two arguments. 
-It's like creating a new dish by following the instructions of another recipe.
+<p>In this example, the calculate function takes an operation (a function) and 
+two arguments.</p>
 
+<p>It's like creating a new dish by following the instructions of another recipe.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Immutability and Pure Functions</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-In functional programming, immutability is key. Think of your data as an unchangeable 
+<p>In functional programming, immutability is key. Think of your data as an unchangeable 
 ingredient, and functions as your cooking instructions. Avoid modifying the original 
-data; instead, create new data structures with the changes.
+data; instead, create new data structures with the changes.</p>
 
 <pre>
 // <i>Immutability</i>
@@ -881,9 +875,9 @@ console.log(newArray); // <i>Output: [2, 4, 6]</i>
 console.log(originalArray); // <i>Output: [1, 2, 3]</i>
 </pre>
 
-Pure functions are functions that always return the same output for the same input and 
+<p><b>Pure functions</b> are functions that always return the same output for the same input and 
 have no side effects. They're like well-defined recipes that don't vary their outcome 
-based on the chef's mood or external factors.
+based on the chef's mood or external factors.</p>
 
 <pre>
 // <i>Pure function</i>
@@ -891,17 +885,16 @@ const double = (x) => x * 2;
 console.log(double(3)); // <i>Output: 6</i>
 console.log(double(3)); // <i>Output: 6</i>
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Map, Filter, and Reduce</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p><b>Map, filter,</b> and <b>reduce</b> are fundamental array methods in JavaScript that can 
+greatly simplify your code and are core tools in functional programming.</p>
 
-Map, filter, and reduce are fundamental array methods in JavaScript that can greatly 
-simplify your code and are core tools in functional programming.
-Imagine an array as a collection of ingredients. Mapping is like transforming each 
-ingredient into something else and creating a new collection. Filtering is like picking 
-specific ingredients that meet your criteria, and reducing is like mixing all the 
-ingredients to create a final dish.
+<p>Imagine an array as a collection of ingredients. <b>Mapping</b> is like transforming each 
+ingredient into something else and creating a new collection. <b>Filtering</b> is like picking 
+specific ingredients that meet your criteria, and <b>reducing</b> is like mixing all the 
+ingredients to create a final dish.</p>
 
 <pre>
 // <i>Using map, filter, and reduce</i>
@@ -913,130 +906,132 @@ console.log(transformedIngredients); // <i>Output: [2, 4, 6, 8, 10]</i>
 console.log(filteredIngredients); // <i>Output: [2, 4]</i>
 console.log(reducedIngredients); // <i>Output: 15</i>
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Conclusion</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Functional programming in JavaScript is all about treating your code as a set of 
+<p>Functional programming in JavaScript is all about treating your code as a set of 
 independent, reusable functions that operate on data without side effects. By 
 understanding first-class functions, higher-order functions, immutability, pure 
 functions, and using tools like map, filter, and reduce, you can write more readable, 
-maintainable, and bug-free code.
+maintainable, and bug-free code.</p>
 
-Just like a skilled chef, functional programmers use the right ingredients and techniques 
+<p>Just like a skilled chef, functional programmers use the right ingredients and techniques 
 to create exquisite dishes. So, next time you write JavaScript code, think of it as 
 crafting a gourmet meal with functional ingredients – your code will be not only 
 delicious but also easy to maintain and extend. Functional programming is a paradigm 
 of building computer programs using expressions and functions without mutating state and 
 data. By respecting these restrictions, functional programming aims to write code that is 
 clearer to understand and more bug resistant. This is achieved by avoiding using flow-control 
-statements (for, while, break, continue, goto) which make the code harder to follow. Also, 
-functional programming requires us to write pure, deterministic functions which are less 
+statements (for, while, break, continue, goto) which make the code harder to follow.</p>
+
+<p>Also, functional programming requires us to write pure, deterministic functions which are less 
 likely to be buggy. In this article, we will talk about doing functional programming using 
 JavaScript. We will also explore various JavaScript methods and features that make it possible. 
 In the end, we will explore different concepts associated with functional programming and see 
 why they are so powerful. Before getting into functional programming, though, one needs to 
-understand the difference between pure and impure functions.
-
+understand the difference between pure and impure functions.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Pure vs. Impure Functions</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Pure functions take some input and give a fixed output. Also, they cause no side effects 
-in the outside world.
+<p>Pure functions take some input and give a fixed output. Also, they cause no side effects 
+in the outside world.</p>
 
 <pre>
 const add = (a, b) => a + b;
 </pre>
 
-Here, add is a pure function. This is because, for a fixed value of a and b, the output 
-will always be the same.
+<p>Here, add is a pure function. This is because, for a fixed value of a and b, the output 
+will always be the same.</p>
 
 <pre>
 const SECRET = 42;  
 const getId = (a) => SECRET * a;
 </pre>
 
-getId is not a pure function. The reason being that it uses the global variable SECRET 
-for computing the output. If SECRET were to change, the getId function will return a 
-different value for the same input. Thus, it is not a pure function.
+<p><b>getId</b> is not a pure function. The reason being that it uses the global variable SECRET 
+for computing the output. If SECRET were to change, the <b>getId</b> function will return a 
+different value for the same input. Thus, it is not a pure function.</p>
 
 <pre>
 let id_count = 0;
 const getId = () => ++id_count;
 </pre>
 
-This is also an impure function, and that too for a couple of reasons—(1) it uses a 
+<p>This is also an impure function, and that too for a couple of reasons—(1) it uses a 
 non-local variable for computing its output, and (2) it creates a side effect in the 
-outside world by modifying a variable in that world.
+outside world by modifying a variable in that world.</p>
  
-This can be troublesome if we had to debug this code.
-What’s the current value of id_count? Which other functions are modifying id_count? Are 
-there other functions relying on id_count?
-Because of these reasons, we only use pure functions in functional programming.
-Another benefit of pure functions is that they can be parallelized and memoized. Have a 
+<p>This can be troublesome if we had to debug this code.</p>
+
+<p>What’s the current value of id_count? Which other functions are modifying id_count? Are 
+there other functions relying on id_count?</p>
+
+<p>Because of these reasons, we only use pure functions in functional programming.</p>
+
+<p>Another benefit of pure functions is that they can be parallelized and memoized. Have a 
 look at the previous two functions. It’s impossible to parallelize or memoize them. This 
-helps in creating performant code.
-The Tenets of Functional Programming
+helps in creating performant code.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h4>The Tenets of Functional Programming</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>So far, we have learned that functional programming is dependent on a few rules.</p>
 
-So far, we have learned that functional programming is dependent on a few rules. 
-They are as follows.
-  1.    Don’t mutate data
-  2.    Use pure functions: fixed output for fixed inputs, and no side effects
-  3.    Use expressions and declarations
+<p>They are as follows.</p>
 
-When we satisfy these conditions, we can say our code is functional.
+<ol type="1" start="1">
+  <li>Don’t mutate data,</li>
+  <li>Use pure functions: fixed output for fixed inputs, and no side effects, and</li>
+  <li>Use expressions and declarations.</li>
+</ol>
 
+<p>When we satisfy these conditions, we can say our code is functional.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Functional Programming in JavaScript</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-JavaScript already has some functions that enable functional programming.
+<p>JavaScript already has some functions that enable functional programming.</p>
 
 <pre>
 Example: String.prototype.slice, Array.protoype.filter, Array.prototype.join.
 </pre>
 
-On the other hand, Array.prototype.forEach, Array.prototype.push are impure functions.
-One can argue that Array.prototype.forEach is not an impure function by design but 
+<p>On the other hand, <b>Array.prototype.forEach</b>, <b>Array.prototype.push</b> are 
+impure functions.</p>
+
+<p>One can argue that <b>Array.prototype.forEach</b> is not an impure function by design but 
 think about it—it’s not possible to do anything with it except mutating non-local 
 data or doing side effects. Thus, it’s okay to put it in the category of impure 
-functions.
-Also, JavaScript has a const declaration, which is perfect for functional programming 
-since we won’t be mutating any data.
+functions.</p>
 
+<p>Also, JavaScript has a const declaration, which is perfect for functional programming 
+since we won’t be mutating any data.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Pure Functions in JavaScript</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Let’s look at some of the pure functions (methods) given by JavaScript.
-
+<p>Let’s look at some of the pure functions (methods) given by JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Filter</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-As the name suggests, this filters the array.
+<p>As the name suggests, this filters the array.</p>
 
 <pre>
 array.filter(condition);
 </pre>
 
-The condition here is a function that gets each item of the array, and it should 
-decide whether to keep the item or not and return the truthy boolean value for that.
+<p>The condition here is a function that gets each item of the array, and it should 
+decide whether to keep the item or not and return the truthy boolean value for that.</p>
 
 <pre>
 const filterEven = x => x%2 === 0;  
 [1, 2, 3].filter(filterEven);  // [2]
 </pre>
 
-Notice that filterEven is a pure function. If it had been impure, then it would have 
-made the entire filter call impure.
-
+<p>Notice that filterEven is a pure function. If it had been impure, then it would have 
+made the entire filter call impure.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Map</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-map maps each item of array to a function and creates a new array based on the return 
-values of the function calls.
+<p><b>map maps</b> each item of array to a function and creates a new array based on the return 
+values of the function calls.</p>
 
 <pre>
 array.map(mapper)
@@ -1045,19 +1040,18 @@ const double = x => 2 * x;
 [1, 2, 3].map(double);  
 // [2, 4, 6]
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Reduce</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-reduce reduces the array to a single value.
+<p><b>reduce reduces</b> the array to a single value.</p>
 
 <pre>
 array.reduce(reducer);
 </pre>
 
-reducer is a function that takes the accumulated value and the next item in the array 
+<p><b>reducer</b> is a function that takes the accumulated value and the next item in the array 
 and returns the new value. It is called like this for all values in the array, one 
-after another.
+after another.</p>
 
 <pre>
 const sum = (accumulatedSum, arrayItem) =&gt; accumulatedSum + arrayItem  
@@ -1067,24 +1061,23 @@ const sum = (accumulatedSum, arrayItem) =&gt; accumulatedSum + arrayItem
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Concat</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-concat adds new items to an existing array to create a new array. It’s different 
-from push() in the sense that push() mutates data, which makes it impure.
+<p><b>concat</b> adds new items to an existing array to create a new array. It’s different 
+from push() in the sense that push() mutates data, which makes it impure.</p>
 
 <pre>
 &lbrack;1, 2&rbrack;.concat(&lbrack;3, 4&rbrack;)  
 // &lbrack;1, 2, 3, 4&rbrack;
 </pre>
 
-You can also do the same using the spread operator.
+<p>You can also do the same using the spread operator.</p>
 
 <pre>
 &lbrack;1, 2, ...&lbrack;3, 4&rbrack;&rbrack;
 </pre>
 
-Object.assign copies values from the provided object to a new object. Since functional 
+<p><b>Object.assign</b> copies values from the provided object to a new object. Since functional 
 programming is predicated on immutable data, we use it to make new objects based on 
-existing objects.
+existing objects.</p>
 
 <pre>
 const obj = {a : 2};  
@@ -1094,7 +1087,7 @@ obj.a;
 // 2
 </pre>
 
-With the advent of ES6, this can also be done using the spread operator.
+<p>With the advent of ES6, this can also be done using the spread operator.</p>
 
 <pre>
 const newObj = {...obj};
@@ -1102,26 +1095,25 @@ const newObj = {...obj};
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Creating Your Own Pure Function</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-We can create our pure function as well. Let’s do one for duplicating a string n 
-number of times.
+<p>We can create our pure function as well. Let’s do one for duplicating a string <b>n</b> 
+number of times.</p>
 
 <pre>
 const duplicate = (str, n) =&gt;
   n &lt; 1 ? '' : str + duplicate(str, n-1);
 </pre>
 
-This function duplicates a string n times and returns a new string.
+<p>This function duplicates a string n times and returns a new string.</p>
 
 <pre>
 duplicate('hooray!', 3)  
 // <i>hooray!hooray!hooray!</i>
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Higher-order Functions</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Higher-order functions are functions that accept a function as an argument and return 
-a function. Often, they are used to add to the functionality of a function.
+<p><b>Higher-order</b> functions are functions that accept a function as an argument and return 
+a function. Often, they are used to add to the functionality of a function.</p>
 
 <pre>
 const withLog = (fn) => {  
@@ -1132,8 +1124,8 @@ const withLog = (fn) => {
 };
 </pre>
 
-In the above example, we create a withLog higher-order function that takes a function 
-and returns a function that logs a message before the wrapped function runs.
+<p>In the above example, we create a <b>withLog</b> higher-order function that takes a function 
+and returns a function that logs a message before the wrapped function runs.</p>
 
 <pre>
 const add = (a, b) => a + b;  
@@ -1143,8 +1135,8 @@ addWithLogging(3, 4);
 // <i>7</i>
 </pre>
 
-withLog HOF can be used with other functions as well and it works without any conflicts 
-or writing extra code. This is the beauty of a HOF.
+<p><b>withLog HOF</b> can be used with other functions as well and it works without any conflicts 
+or writing extra code. This is the beauty of a HOF.</p>
 
 <pre>
 const addWithLogging = withLog(add);  
@@ -1155,27 +1147,27 @@ hypeWithLogging('Sale');
 // <i>Sale!!!</i>
 </pre>
 
-One can also call it without defining a combining function.
+<p>One can also call it without defining a combining function.</p>
 
 <pre>
 withLog(hype)('Sale'); 
 // <i>calling hype</i>
 // <i>Sale!!!</i>
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Currying</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Currying means breaking down a function that takes multiple arguments into one or 
-multiple levels of higher-order functions.
-Let’s take the add function.
+<p><b>Currying</b> means breaking down a function that takes multiple arguments into one or 
+multiple levels of higher-order functions.</p>
+
+<p>Let’s take the add function.</p>
 
 <pre>
 const add = (a, b) => a + b;
 </pre>
 
-When we are to curry it, we rewrite it distributing arguments into multiple levels 
-as follows.
+<p>When we are to curry it, we rewrite it distributing arguments into multiple levels 
+as follows.</p>
 
 <pre>
 const add = a => {
@@ -1187,8 +1179,8 @@ add(3)(4);
 // 7
 </pre>
 
-The benefit of currying is memoization. We can now memoize certain arguments in a 
-function call so that they can be reused later without duplication and re-computation.
+<p>The benefit of currying is memoization. We can now memoize certain arguments in a 
+function call so that they can be reused later without duplication and re-computation.</p>
 
 <pre>
 // <i>assume getOffsetNumer() call is expensive</i>
@@ -1199,7 +1191,7 @@ addOffset(4);
 addOffset(6);
 </pre>
 
-This is certainly better than using both arguments everywhere.
+<p>This is certainly better than using both arguments everywhere.</p>
 
 <pre>
 // <i>(X) DON"T DO THIS</i>
@@ -1208,9 +1200,9 @@ add(6, getOffsetNumber());
 add(10, getOffsetNumber());
 </pre>
 
-We can also reformat our curried function to look succinct. This is because each level 
+<p>We can also reformat our curried function to look succinct. This is because each level 
 of the currying function call is a single line return statement. Therefore, we can use 
-arrow functions in ES6 to refactor it as follows.
+arrow functions in ES6 to refactor it as follows.</p>
 
 <pre>
 const add = a => b => a + b;
@@ -1218,24 +1210,26 @@ const add = a => b => a + b;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Composition</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-In mathematics, composition is defined as passing the output of one function into input 
+<p>In mathematics, composition is defined as passing the output of one function into input 
 of another so as to create a combined output. The same is possible in functional 
-programming since we are using pure functions.
-To show an example, let’s create some functions.
-The first function is range, which takes a starting number a and an ending number b 
-and creates an array consisting of numbers from a to b.
+programming since we are using pure functions.</p>
+
+<p>To show an example, let’s create some functions.</p>
+
+<p>The first function is range, which takes a starting number a and an ending number b 
+and creates an array consisting of numbers from a to b.</p>
 
 <pre>
 const range = (a, b) => a > b ? [] : [a, ...range(a+1, b)];
 </pre>
 
-Then we have a function multiply that takes an array and multiplies all the numbers in it.
+<p>Then we have a function multiply that takes an array and multiplies all the numbers in it.</p>
 
 <pre>
 const multiply = arr => arr.reduce((p, a) => p * a);
 </pre>
 
-We will use these functions together to calculate factorial.
+<p>We will use these functions together to calculate factorial.</p>
 
 <pre>
 const factorial = n => multiply(range(1, n));
@@ -1246,74 +1240,80 @@ factorial(6);
 // <i>720</i>
 </pre>
 
-The above function for calculating factorial is similar to f(x) = g(h(x)), thus 
-demonstrating the composition property.
-
+<p>The above function for calculating factorial is similar to f(x) = g(h(x)), thus 
+demonstrating the composition property.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 5. Error Handling and Debugging:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Error handling and debugging are crucial aspects of JavaScript development that help 
+<p><b>Error handling and debugging</b> are crucial aspects of JavaScript development that help 
 identify and resolve issues in the code. Proper error handling ensures that unexpected 
 errors are caught and gracefully handled, while effective debugging techniques help 
-developers find and fix bugs during the development process.
-When any error occurs, JavaScript will stop and generate an error message. The throw 
+developers find and fix bugs during the development process.</p>
+
+<p>When any error occurs, JavaScript will stop and generate an error message. The throw 
 statement lets you create your own custom error. Technically you can throw your custom 
 exception (throw an error). The exception can be a JavaScript Number, String, Boolean, 
-or Object.
-
+or Object.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Debugging Techniques in Programming:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<ol>
+  <li><b>Breakpoints</b>: By setting breakpoints in the code, you can pause the program at specific 
+      points, check variables, and closely examine the program's current state. ...</li>
+  <li><b>Step Through</b>: Examining the code line by line aids in identifying the precise location 
+      of an error. ...</li>
+  <li>Watch Variables:</li>
+</ol>
 
-1.    Breakpoints: By setting breakpoints in the code, you can pause the program at specific 
-      points, check variables, and closely examine the program's current state. ...
-2.    Step Through: Examining the code line by line aids in identifying the precise location 
-      of an error. ...
-3.    Watch Variables:
+<p>There are three main types of errors that can occur while compiling a JavaScript program:</p>
 
-There are three main types of errors that can occur while compiling a JavaScript program: 
-syntax errors, runtime errors, and logical errors. The most common type of errors are 
+<p><b>syntax errors, runtime errors</b>, and <b>logical errors</b>. The most common type of errors are 
 syntax errors, in which something incorrect in the syntax of the program body raises 
-this error.
-One of the simplest ways to debug JavaScript code is by using console. log() statements 
-to output variable values or messages to the console. This can help you identify the point 
-at which your code starts to break down or behave unexpectedly. console.
-Expert developers expect the unexpected. If something can go wrong, it will go wrong — 
-typically, the moment the first user accesses your new web system.
+this error.</p>
 
-We can avoid some web application errors like so:
-  - A good editor or linter can catch syntax errors.
-  - Good validation can catch user input errors.
-  - Robust test processes can spot logic errors.
-  
-Yet errors remain. Browsers may fail or not support an API we’re using. Servers can fail 
+<p>One of the simplest ways to debug JavaScript code is by using <b>console.log()</b> statements 
+to output variable values or messages to the console. This can help you identify the point at which 
+your code starts to break down or behave unexpectedly. console. Expert developers expect the 
+unexpected. If something can go wrong, it will go wrong — typically, the moment the first user 
+accesses your new web system.</p>
+
+<p>We can avoid some web application errors like so:</p>
+
+<ul>
+  <li>A good editor or linter can catch syntax errors.</li>
+  <li>Good validation can catch user input errors.</li>
+  <li>Robust test processes can spot logic errors.</li>
+</ul>
+
+<p>Yet errors remain. Browsers may fail or not support an API we’re using. Servers can fail 
 or take too long to respond. Network connectivity can fail or become unreliable. Issues 
 may be temporary, but we can’t code our way around such problems. However, we can 
-anticipate problems, take remedial actions, and make our application more resilient.
-Showing an Error Message is the Last Resort
+anticipate problems, take remedial actions, and make our application more resilient.</p>
 
-Ideally, users should never see error messages.
+<h4>Showing an Error Message is the Last Resort</h4
 
-We may be able to ignore minor issues, such as a decorative image failing to load. We 
+<p>Ideally, users should never see error messages.</p>
+
+<p>We may be able to ignore minor issues, such as a decorative image failing to load. We 
 could address more serious problems such as Ajax data-save failures by storing data 
 locally and uploading later. An error only becomes necessary when the user is at risk 
-of losing data — presuming they can do something about it.
-It’s therefore necessary to catch errors as they occur and determine the best action. 
-Raising and catching errors in a JavaScript application can be daunting at first, but 
-it’s possibly easier than you expect.
+of losing data — presuming they can do something about it.</p>
 
+<p>It’s therefore necessary to catch errors as they occur and determine the best action. 
+Raising and catching errors in a JavaScript application can be daunting at first, but 
+it’s possibly easier than you expect.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>How JavaScript Processes Errors</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-When a JavaScript statement results in an error, it’s said to throw an exception. 
+<p>When a JavaScript statement results in an error, it’s said to throw an exception. 
 JavaScript creates and throws an Error object describing the error. We can see this in 
 action in this CodePen demo. If we set the decimal places to a negative number, we’ll 
 see an error message in the console at the bottom. (Note that we’re not embedding the 
 CodePens in this tutorial, because you need to be able to see the console output for 
-them to make sense.)
-The result won’t update, and we’ll see a RangeError message in the console. The 
-following function throws the error when dp is negative:
+them to make sense.)</p>
+
+<p>The result won’t update, and we’ll see a RangeError message in the console. The 
+following function throws the error when dp is negative:</p>
 
 <pre>
 // <i>Division calculation</i>
@@ -1322,8 +1322,8 @@ function divide(v1, v2, dp) {
 }
 </pre>
 
-After throwing the error, the JavaScript interpreter checks for exception handling 
-code. None is present in the divide() function, so it checks the calling function:
+<p>After throwing the error, the JavaScript interpreter checks for exception handling 
+code. None is present in the divide() function, so it checks the calling function:</p>
 
 <pre>
 // <i>Show result of division</i>
@@ -1336,17 +1336,17 @@ function showResult() {
 }
 </pre>
 
-The interpreter repeats the process for every function on the call stack until one of 
-these things happens:
-  - it finds an exception handler
-  - it reaches the top level of code (which causes the program to terminate and show 
-    an error in the console, as demonstrated in the CodePen example above)
-
+<p>The interpreter repeats the process for every function on the call stack until one of 
+these things happens:</p>
+<ul>
+  <li>it finds an exception handler and</li>
+  <li>it reaches the top level of code (which causes the program to terminate and show 
+    an error in the console, as demonstrated in the CodePen example above)</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Catching Exceptions</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-We can add an exception handler to the divide() function with a try…catch block:
+<p>We can add an exception handler to the divide() function with a try…catch block:</p>
 
 <pre>
 // <i>Division calculation</i>
@@ -1364,15 +1364,18 @@ function divide(v1, v2, dp) {
 }
 </pre>
 
-This executes the code in the try {} block but, when an exception occurs, the catch {} 
+<p>This executes the code in the try {} block but, when an exception occurs, the catch {} 
 block executes and receives the thrown error object. As before, try setting the decimal 
-places to a negative number in this CodePen demo.
-The result now shows ERROR. The console shows the error name and message, but this is 
-output by the console.log statement and doesn’t terminate the program.
-Note: this demonstration of a try...catch block is overkill for a basic function such 
-as divide(). It’s simpler to ensure dp is zero or higher, as we’ll see below.
-We can define an optional finally {} block if we require code to run when either the 
-try or catch code executes:
+places to a negative number in this CodePen demo.</p>
+
+<p>The result now shows ERROR. The console shows the error name and message, but this is 
+output by the console.log statement and doesn’t terminate the program.</p>
+
+<p>Note: this demonstration of a <b>try...catch block</b> is overkill for a basic function such 
+as <b>divide()</b>. It’s simpler to ensure dp is zero or higher, as we’ll see below.</p>
+
+<p>We can define an optional finally {} block if we require code to run when either the 
+try or catch code executes:</p>
 
 <pre>
 function divide(v1, v2, dp) {
@@ -1388,19 +1391,18 @@ function divide(v1, v2, dp) {
 }
 </pre>
 
-The console outputs "done", whether the calculation succeeds or raises an error. A 
+<p>The console outputs "done", whether the calculation succeeds or raises an error. A 
 finally block typically executes actions which we’d otherwise need to repeat in both 
 the try and the catch block — such as cancelling an API call or closing a database 
-connection.
-A try block requires either a catch block, a finally block, or both. Note that, when 
-a finally block contains a return statement, that value becomes the return value for 
-the whole function; other return statements in try or catch blocks are ignored.
+connection.</p>
 
+<p>A <b>try block</b> requires either a catch block, a finally block, or both. Note that, when 
+a finally block contains a return statement, that value becomes the return value for 
+the whole function; other return statements in try or catch blocks are ignored.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Nested Exception Handlers</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-What happens if we add an exception handler to the calling showResult() function?
+<p>What happens if we add an exception handler to the calling showResult() function?</p>
 
 <pre>
 // <i>Show result of division</i>
@@ -1419,10 +1421,11 @@ function showResult() {
 }
 </pre>
 
-The answer is … nothing! This catch block is never reached, because the catch block in 
-the divide() function handles the error.
-However, we could programmatically throw a new Error object in divide() and optionally 
-pass the original error in a cause property of the second argument:
+<p>The answer is … nothing! This catch block is never reached, because the catch block in 
+the divide() function handles the error.</p>
+
+<p>However, we could programmatically throw a new Error object in divide() and optionally 
+pass the original error in a cause property of the second argument:</p>
 
 <pre>
 function divide(v1, v2, dp) {
@@ -1435,7 +1438,7 @@ function divide(v1, v2, dp) {
 }
 </pre>
 
-This will trigger the catch block in the calling function:
+<p>This will trigger the <b>catch block</b> in the calling function:</p>
 
 <pre>
 // <i>Show result of division</i>
@@ -1450,19 +1453,15 @@ function showResult() {
   }
 }
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Standard JavaScript Error Types</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-When an exception occurs, JavaScript creates and throws an object describing the error 
-using one of the following types.
-
+<p>When an exception occurs, JavaScript creates and throws an object describing the error 
+using one of the following types.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>SyntaxError</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-An error thrown by syntactically invalid code such as a missing bracket:
+<p>An error thrown by syntactically invalid code such as a missing bracket:</p>
 
 <pre>
 if condition) { // <i>SyntaxError</i>
@@ -1470,15 +1469,13 @@ if condition) { // <i>SyntaxError</i>
 }
 </pre>
 
-Note: languages such as C++ and Java report syntax errors during compilation. JavaScript 
+<p>Note: languages such as C++ and Java report syntax errors during compilation. JavaScript 
 is an interpreted language, so syntax errors aren’t identified until the code runs. Any 
-good code editor or linter can spot syntax errors before we attempt to run code.
-
+good code editor or linter can spot syntax errors before we attempt to run code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>ReferenceError</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-An error thrown when accessing a non-existent variable:
+<p>An error thrown when accessing a non-existent variable:</p>
 
 <pre>
 function inc() {
@@ -1486,14 +1483,12 @@ function inc() {
 }
 </pre>
 
-Again, good code editors and linters can spot these issues.
-
+<p>Again, good code editors and linters can spot these issues.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>TypeError</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-An error thrown when a value isn’t of an expected type, such as calling a non-existent 
-object method:
+<p>An error thrown when a value isn’t of an expected type, such as calling a non-existent 
+object method:</p>
 
 <pre>
 const obj = {};
@@ -1502,10 +1497,9 @@ obj.missingMethod(); // <i>TypeError</i>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>RangeError</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-An error thrown when a value isn’t in the set or range of allowed values. The 
+<p>An error thrown when a value isn’t in the set or range of allowed values. The 
 toFixed() method used above generates this error, because it expects a value 
-typically between 0 and 100:
+typically between 0 and 100:</p>
 
 <pre>
 const n = 123.456;
@@ -1514,9 +1508,8 @@ console.log( n.toFixed(-1) ); // <i>RangeError</i>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>URIError</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-An error thrown by URI-handling functions such as encodeURI() and decodeURI() when they 
-encounter malformed URIs:
+<p>An error thrown by URI-handling functions such as encodeURI() and decodeURI() when they 
+encounter malformed URIs:</p>
 
 <pre>
 const u = decodeURIComponent('%'); // <i>URIError</i>
@@ -1524,50 +1517,43 @@ const u = decodeURIComponent('%'); // <i>URIError</i>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>EvalError</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-An error thrown when passing a string containing invalid JavaScript code to the eval() 
-function:
+<p>An error thrown when passing a string containing invalid JavaScript code to the eval() 
+function:</p>
 
 <pre>
 eval('console.logg x;'); // <i>EvalError</i>
 </pre>
 
-Note: please don’t use eval()! Executing arbitrary code contained in a string possibly 
-constructed from user input is far too dangerous!
-
+<p>Note: please don’t use eval()! Executing arbitrary code contained in a string possibly 
+constructed from user input is far too dangerous!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>AggregateError</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-An error thrown when several errors are wrapped in a single error. This is typically 
+<p>An error thrown when several errors are wrapped in a single error. This is typically 
 raised when calling an operation such as Promise.all(), which returns results from any 
-number of promises.
-
+number of promises.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>InternalError</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-A non-standard (Firefox only) error thrown when an error occurs internally in the 
+<p>A non-standard (Firefox only) error thrown when an error occurs internally in the 
 JavaScript engine. It’s typically the result of something taking too much memory, 
-such as a large array or “too much recursion”.
-
+such as a large array or “too much recursion”.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Error</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Finally, there is a generic Error object which is most often used when implementing 
-our own exceptions … which we’ll cover next.
-
+<p>Finally, there is a generic Error object which is most often used when implementing 
+our own exceptions … which we’ll cover next.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Throwing Our Own Exceptions</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>We can throw our own exceptions when an error occurs — or should occur. For example:</p>
+<ul>
+  <li>our function isn’t passed valid parameters,</li>
+  <li>an Ajax request fails to return expected data,</li>
+  <li>a DOM update fails because a node doesn’t exist</li>
+</ul>
 
-We can throw our own exceptions when an error occurs — or should occur. For example:
-  - our function isn’t passed valid parameters
-  - an Ajax request fails to return expected data
-  - a DOM update fails because a node doesn’t exist
-
-The throw statement actually accepts any value or object. For example:
+<p>The throw statement actually accepts any value or object. For example:</p>
 
 <pre>
 throw 'A simple error string';
@@ -1576,52 +1562,57 @@ throw true;
 throw { message: 'An error', name: 'MyError' };
 </pre>
 
-Exceptions are thrown to every function on the call stack until they’re intercepted by 
+<p>Exceptions are thrown to every function on the call stack until they’re intercepted by 
 an exception (catch) handler. More practically, however, we’ll want to create and throw 
-an Error object so they act identically to standard errors thrown by JavaScript.
-We can create a generic Error object by passing an optional message to the constructor:
+an Error object so they act identically to standard errors thrown by JavaScript.</p>
+
+<p>We can create a generic Error object by passing an optional message to the constructor:</p>
 
 <pre>
 throw new Error('An error has occurred');
 </pre>
 
-We can also use Error like a function without new. It returns an Error object identical 
-to that above:
+<p>We can also use Error like a function without new. It returns an Error object identical 
+to that above:</p>
 
 <pre>
 throw Error('An error has occurred');
 </pre>
 
-We can optionally pass a filename and a line number as the second and third parameters:
+<p>We can optionally pass a filename and a line number as the second and third parameters:</p>
 
 <pre>
 throw new Error('An error has occurred', 'script.js', 99);
 </pre>
 
-This is rarely necessary, since they default to the file and line where we threw the 
-Error object. (They’re also difficult to maintain as our files change!)
-We can define generic Error objects, but we should use a standard Error type when 
-possible. 
-For example:
+<p>This is rarely necessary, since they default to the file and line where we threw the 
+Error object. (They’re also difficult to maintain as our files change!)</p>
+
+<p>We can define generic Error objects, but we should use a standard Error type when 
+possible.</p>
+
+<h4>For example:</h4>
 
 <pre>
 throw new RangeError('Decimal places must be 0 or greater');
 </pre>
 
-All Error objects have the following properties, which we can examine in a catch block:
+<p>All Error objects have the following properties, which we can examine in a catch block:</p>
+<ul>
+  <li><b>name</b>: the name of the Error type — such as Error or RangeError</li>
+  <li><b>.message</b>: the error message</li>
+</ul>
 
-  - .name: the name of the Error type — such as Error or RangeError
-  - .message: the error message
-  
-The following non-standard properties are also supported in Firefox:
+<p>The following non-standard properties are also supported in Firefox:</p>
+<ul>
+  <li><b>.fileName</b>: the file where the error occurred</li>
+  <li><b>.lineNumber</b>: the line number where the error occurred</li>
+  <li><b>.columnNumber</b>: the column number on the line where the error occurred</li>
+  <li><b>.stack</b>: a stack trace listing the function calls made before the error occurred</li>
+</ul>
 
-  - .fileName: the file where the error occurred
-  - .lineNumber: the line number where the error occurred
-  - .columnNumber: the column number on the line where the error occurred
-  - .stack: a stack trace listing the function calls made before the error occurred
-
-We can change the divide() function to throw a RangeError when the number of decimal 
-places isn’t a number, is less than zero, or is greater than eight:
+<p>We can change the divide() function to throw a RangeError when the number of decimal 
+places isn’t a number, is less than zero, or is greater than eight:</p>
 
 <pre>
 // <i>Division calculation</i>
@@ -1634,8 +1625,8 @@ function divide(v1, v2, dp) {
 }
 </pre>
 
-Similarly, we could throw an Error or TypeError when the dividend value isn’t a 
-number to prevent NaN results:
+<p>Similarly, we could throw an Error or TypeError when the dividend value isn’t a 
+number to prevent NaN results:</p>
 
 <pre>
   if (isNaN(v1)) {
@@ -1643,9 +1634,9 @@ number to prevent NaN results:
   }
 </pre>
 
-We can also cater for divisors that are non-numeric or zero. JavaScript returns 
+<p>We can also cater for divisors that are non-numeric or zero. JavaScript returns 
 Infinity when dividing by zero, but that could confuse users. Rather than raising 
-a generic Error, we could create a custom DivByZeroError error type:
+a generic Error, we could create a custom DivByZeroError error type:</p>
 
 <pre>
 // <i>New DivByZeroError Error type</i>
@@ -1657,7 +1648,7 @@ class DivByZeroError extends Error {
 }
 </pre>
 
-Then throw it in the same way:
+<p>Then throw it in the same way:</p>
 
 <pre>
 if (isNaN(v2) || !v2) {
@@ -1665,13 +1656,12 @@ if (isNaN(v2) || !v2) {
 }
 </pre>
 
-Now add a try...catch block to the calling showResult() function. It can receive any 
-Error type and react accordingly — in this case, showing the error message:
+<p>Now add a <b>try...catch block</b> to the calling <b>showResult()</b> function. It can receive any 
+Error type and react accordingly — in this case, showing the error message:</p>
 
 <pre>
 // <i>Show result of division</i>
 function showResult() {
-
   try {
     result.value = divide(
       parseFloat(num1.value),
@@ -1688,9 +1678,10 @@ function showResult() {
 }
 </pre>
 
-Try entering invalid non-numeric, zero, and negative values into this CodePen demo.
-The final version of the divide() function checks all the input values and throws an 
-appropriate Error when necessary:
+<p>Try entering invalid non-numeric, zero, and negative values into this CodePen demo.</p>
+
+<p>The final version of the <b>divide()</b> function checks all the input values and throws an 
+appropriate Error when necessary:</p>
 
 <pre>
 // <i>Division calculation</i>
@@ -1708,17 +1699,16 @@ function divide(v1, v2, dp) {
 }
 </pre>
 
-It’s no longer necessary to place a try...catch block around the final return, since it 
+<p>It’s no longer necessary to place a <b>try...catch block</b> around the final return, since it 
 should never generate an error. If one did occur, JavaScript would generate its own 
-error and have it handled by the catch block in showResult().
-
+error and have it handled by the catch block in <b>showResult()</b>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Asynchronous Function Errors</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-We can’t catch exceptions thrown by callback-based asynchronous functions, because an 
+<p>We can’t catch exceptions thrown by callback-based asynchronous functions, because an 
 error is thrown after the try...catch block completes execution. This code looks 
 correct, but the catch block will never execute and the console displays an Uncaught 
-Error message after one second:
+Error message after one second:</p>
 
 <pre>
 function asyncError(delay = 1000) {
@@ -1735,9 +1725,9 @@ catch(e) {
 }
 </pre>
 
-The convention presumed in most frameworks and server runtimes such as Node.js is to 
+<p>The convention presumed in most frameworks and server runtimes such as Node.js is to 
 return an error as the first parameter to a callback function. That won’t raise an 
-exception, although we could manually throw an Error if necessary:
+exception, although we could manually throw an Error if necessary:</p>
 
 <pre>
 function asyncError(delay = 1000, callback) {
@@ -1751,14 +1741,12 @@ asyncError(1000, e => {
   }
 });
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Promise-based Errors</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Callbacks can become unwieldy, so it’s preferable to use promises when writing 
-asynchronous code. When an error occurs, the promise’s reject() method can return 
-a new Error object or any other value:
+<p>Callbacks can become unwieldy, so it’s preferable to use promises when writing 
+asynchronous code. When an error occurs, the <b>promise’s reject()</b> method can return 
+a new Error object or any other value:</p>
 
 <pre>
 function wait(delay = 1000) {
@@ -1775,12 +1763,13 @@ function wait(delay = 1000) {
 }
 </pre>
 
-Note: functions must be either 100% synchronous or 100% asynchronous. This is why it’s 
+<p><b>Note</b>: functions must be either 100% synchronous or 100% asynchronous. This is why it’s 
 necessary to check the delay value inside the returned promise. If we checked the delay 
 value and threw an error before returning the promise, the function would become 
-synchronous when an error occurred.
-The Promise.catch() method executes when passing an invalid delay parameter and it 
-receives to the returned Error object:
+synchronous when an error occurred.</p>
+
+<p>The <b>Promise.catch()</b> method executes when passing an invalid delay parameter and it 
+receives to the returned Error object:</p>
 
 <pre>
 // <i>Invalid delay value passed</i>
@@ -1790,11 +1779,12 @@ wait('INVALID')
   .finally( () => console.log('complete') );
 </pre>
 
-Personally, I find promise chains a little difficult to read. Fortunately, we can use 
+<p>Personally, I find promise chains a little difficult to read. Fortunately, we can use 
 await to call any function which returns a promise. This must occur inside an async 
-function, but we can capture errors using a standard try...catch block.
-The following (immediately invoked) async function is functionally identical to the 
-promise chain above:
+function, but we can capture errors using a standard try...catch block.</p>
+
+<p>The following (immediately invoked) async function is functionally identical to the 
+promise chain above:</p>
 
 <pre>
 (async () => {
@@ -1809,12 +1799,10 @@ promise chain above:
   }
 })();
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Exceptional Exception Handling</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Throwing Error objects and handling exceptions is easy in JavaScript:
+<p>Throwing Error objects and handling exceptions is easy in JavaScript:</p>
 
 <pre>
 try {
@@ -1825,67 +1813,67 @@ catch (e) {
 }
 </pre>
 
-Building a resilient application that reacts appropriately to errors and makes life 
-easy for users is more challenging. Always expect the unexpected.
+<p>Building a resilient application that reacts appropriately to errors and makes life 
+easy for users is more challenging. Always expect the unexpected.</p>
 
-Further information:
-  - MDN Control Flow and Error Handling
-  - MDN try…catch
-  - MDN Error object
-
-Frequently Asked Questions (FAQs) on JavaScript 
-
+<p>Further information:</p>
+<ul>
+  <li>MDN Control Flow and Error Handling</li>
+  <li>MDN try…catch</li>
+  <li>MDN Error object</li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Frequently Asked Questions (FAQs) on JavaScript</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Error Handling</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h4>What are the different types of errors in JavaScript?</h4>
 
-What are the different types of errors in JavaScript?
-
-JavaScript has three types of errors: Syntax Errors, Runtime Errors, and Logical 
-Errors. Syntax Errors occur when there is an issue with the structure of your code, 
-such as a missing bracket or semicolon. Runtime Errors happen when the code is 
+<p>JavaScript has three types of errors: <b>Syntax Errors, Runtime Errors</b>, and <b>Logical 
+Errors</b>. <b>Syntax Errors</b> occur when there is an issue with the structure of your code, 
+such as a missing bracket or semicolon. <b>Runtime Errors</b> happen when the code is 
 syntactically correct but fails to execute due to unforeseen circumstances like 
-referencing an undefined variable. Logical Errors are the most challenging to debug 
+referencing an undefined variable. <b>Logical Errors</b> are the most challenging to debug 
 as they occur when the code runs without crashing, but it doesn’t produce the expected 
-outcome.
+outcome.</p>
 
-How can I handle errors in JavaScript?
+<h4>How can I handle errors in JavaScript?</h4>
 
-JavaScript provides several mechanisms for error handling, including try-catch-finally blocks, throwing exceptions, and using error events. The try-catch-finally block is the most common method. It allows you to “try” a block of code and “catch” any errors that occur. The “finally” block will execute regardless of whether an error was thrown.
+<p>JavaScript provides several mechanisms for error handling, including try-catch-finally blocks, throwing exceptions, and using error events. The try-catch-finally block is the most common method. It allows you to “try” a block of code and “catch” any errors that occur. The “finally” block will execute regardless of whether an error was thrown.</p>
 
-What is the purpose of the ‘throw’ statement in JavaScript?
+<h4>What is the purpose of the ‘throw’ statement in JavaScript?</h4>
 
-The ‘throw’ statement allows you to create custom error messages in JavaScript. It’s useful when you want to generate an error that the JavaScript engine wouldn’t typically produce. For example, you might want to throw an error if a function argument is not of the expected type.
+<p>The ‘throw’ statement allows you to create custom error messages in JavaScript. It’s useful when you want to generate an error that the JavaScript engine wouldn’t typically produce. For example, you might want to throw an error if a function argument is not of the expected type.</p>
 
-How can I create a custom error in JavaScript?
+<h4>How can I create a custom error in JavaScript?</h4>
 
-You can create a custom error in JavaScript by defining a new object that inherits from the Error constructor. This new object can then be thrown using the ‘throw’ statement. This is useful when you want to provide more specific error information than the standard Error types provide.
+<p>You can create a custom error in JavaScript by defining a new object that inherits from the Error constructor. This new object can then be thrown using the ‘throw’ statement. This is useful when you want to provide more specific error information than the standard Error types provide.</p>
 
-What is the difference between ‘null’ and ‘undefined’ in JavaScript?
+<h4>What is the difference between ‘null’ and ‘undefined’ in JavaScript?</h4>
 
-In JavaScript, ‘null’ and ‘undefined’ both represent the absence of value. However, they are used in slightly different contexts. ‘Undefined’ means a variable has been declared but has not yet been assigned a value. On the other hand, ‘null’ is an assignment value that represents no value or no object.
+<p>In JavaScript, ‘null’ and ‘undefined’ both represent the absence of value. However, they are used in slightly different contexts. ‘Undefined’ means a variable has been declared but has not yet been assigned a value. On the other hand, ‘null’ is an assignment value that represents no value or no object.</p>
 
-How can I debug JavaScript errors?
+<h4>How can I debug JavaScript errors?</h4>
 
-Debugging JavaScript errors can be done using various tools and techniques. Most modern browsers come with built-in developer tools that include a JavaScript console, which displays errors and allows you to interact with your code. You can also use breakpoints to pause code execution and inspect the current state.
+<p>Debugging JavaScript errors can be done using various tools and techniques. Most modern browsers come with built-in developer tools that include a JavaScript console, which displays errors and allows you to interact with your code. You can also use breakpoints to pause code execution and inspect the current state.</p>
 
-What is ‘strict mode’ in JavaScript and how does it help with error handling?
+<h4>What is ‘strict mode’ in JavaScript and how does it help with error handling?</h4>
 
-Strict mode’ is a feature in JavaScript that helps catch common coding mistakes and “unsafe” actions. For example, in strict mode, variables must be declared with ‘var’, ‘let’, or ‘const’. Trying to use an undeclared variable will result in an error. This can help prevent bugs that are difficult to detect.
+<p>Strict mode’ is a feature in JavaScript that helps catch common coding mistakes and “unsafe” actions. For example, in strict mode, variables must be declared with ‘var’, ‘let’, or ‘const’. Trying to use an undeclared variable will result in an error. This can help prevent bugs that are difficult to detect.</p>
 
-What is the difference between a ‘TypeError’ and a ‘ReferenceError’ in JavaScript?
+<h4>What is the difference between a ‘TypeError’ and a ‘ReferenceError’ in JavaScript?</h4>
 
-A ‘TypeError’ occurs when an operation could not be performed, typically when a value is not of the expected type. A ‘ReferenceError’ is thrown when trying to dereference a variable that has not been declared.
+<p>A ‘TypeError’ occurs when an operation could not be performed, typically when a value is not of the expected type. A ‘ReferenceError’ is thrown when trying to dereference a variable that has not been declared.</p>
 
-How can I handle asynchronous errors in JavaScript?
+<h4>How can I handle asynchronous errors in JavaScript?</h4>
 
-Asynchronous errors can be handled using promises or async/await. Promises have ‘catch’ and ‘finally’ methods similar to try-catch-finally blocks. With async/await, you can use a try-catch block to handle errors in asynchronous code.
+<p>Asynchronous errors can be handled using promises or async/await. Promises have ‘catch’ and ‘finally’ methods similar to try-catch-finally blocks. With async/await, you can use a try-catch block to handle errors in asynchronous code.</p>
 
-What is the ‘onerror’ event handler in JavaScript?
+<h4>What is the ‘onerror’ event handler in JavaScript?</h4>
 
-The ‘onerror’ event handler is a global event handler in JavaScript that catches errors that occur in the window context. It can be used to log uncaught exceptions or to handle them in a custom way.
+<p>The ‘onerror’ event handler is a global event handler in JavaScript that catches errors that occur in the window context. It can be used to log uncaught exceptions or to handle them in a custom way.</p>
 
-Throwing Error objects and handling exceptions is easy in JavaScript:
+<p>Throwing Error objects and handling exceptions is easy in JavaScript:</p>
 
 <pre>
 try {
@@ -1896,39 +1884,43 @@ catch (e) {
 }
 </pre>
 
-6. Modules and Bundlers:
+<h3>6. Modules and Bundlers:</h3>
 
-In JavaScript, modules and bundlers play a crucial role in organizing and optimizing 
-code for modern web development. Here's a breakdown:
-
+<p>In JavaScript, modules and bundlers play a crucial role in organizing and optimizing 
+code for modern web development. Here's a breakdown:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Modules:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - What they are:
+<ul>
+  <li>What they are:<br>
     Modules are self-contained units of code that encapsulate functionality. They allow 
 	you to break down your code into smaller, manageable pieces, making it easier to 
-	maintain and reuse.
-  - Benefits:
-  - Organization: Modules help you organize your code by separating concerns into 
-    logical units.
-  - Reusability: You can easily reuse modules across different parts of your application 
-    or even in other projects.
-  - Encapsulation: Modules hide their internal implementation details, exposing only 
-    what's necessary.
-  - Syntax:
-    JavaScript supports two main module formats:
-  - CommonJS: Used primarily in Node.js, it uses require to import modules and 
-    module.exports to export them.
-  - ES Modules: The standard module format in modern JavaScript, it uses import 
-    and export statements.
-
+	maintain and reuse.</li>
+  <li>Benefits:
+    <ul>
+      <li><b>Organization</b>: Modules help you organize your code by separating concerns into 
+	    logical units.</li>
+	  <li><b>Reusability</b>: You can easily reuse modules across different parts of your application 
+	    or even in other projects.</li>
+      <li><b>Encapsulation</b>: Modules hide their internal implementation details, exposing only 
+	     what's necessary.</li>
+	</ul>
+  </li>
+  <li>Syntax:
+    <ul>
+	  <li>JavaScript supports two main module formats:</li>
+	  <li><b>CommonJS</b>: Used primarily in Node.js, it uses require to import modules and 
+	    module.exports to export them.</li>
+	  <li><b>ES Modules</b>: The standard module format in modern JavaScript, it uses import 
+	    and export statements.</li>
+	</ul>
+  </li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example (ES Modules):</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <pre>
 // module1.js
 export function greet(name) {
@@ -1938,95 +1930,111 @@ export function greet(name) {
 import { greet } from './module1.js';
 greet('World');
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Bundlers:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-  - What they are:
+<ul>
+  <li>What they are:<br>
     Bundlers are tools that take multiple JavaScript modules and combine them into a 
-	single file (or a few files) that can be efficiently loaded by a browser.
-  - Benefits:
-  - Reduced network requests: Browsers have limitations on the number of simultaneous 
-    requests they can make. Bundling reduces the number of files to be fetched, 
-	improving performance.
-  - Dependency management: Bundlers automatically resolve dependencies between modules, 
-    ensuring that all required code is included in the final bundle.
-  - Code transformations: Bundlers can perform transformations like transpiling (e.g., 
-    Babel for converting modern JavaScript to older versions) and minification (reducing 
-	file size).
-  - Popular Bundlers:
-  - Webpack: A powerful and flexible bundler with a wide range of features and plugins.
-  - Rollup: A fast and efficient bundler focused on producing small, optimized bundles.
-  - Parcel: A zero-configuration bundler that aims to be simple and easy to use.
-  - Vite: A fast development server and build tool that leverages native ES modules for 
-    lightning-fast development. 
-
+	single file (or a few files) that can be efficiently loaded by a browser.</li>
+  <li>Benefits:
+    <ul>
+	  <li>Reduced network requests: Browsers have limitations on the number of simultaneous 
+	    requests they can make. Bundling reduces the number of files to be fetched, 
+		improving performance.</li>
+      <li>Dependency management: Bundlers automatically resolve dependencies between modules, 
+	    ensuring that all required code is included in the final bundle.</li>
+	  <li>Code transformations: Bundlers can perform transformations like transpiling (e.g., 
+	    Babel for converting modern JavaScript to older versions) and minification (reducing 
+		file size).</li>
+	  <li>Popular Bundlers:
+	    <ul>
+		  <li>Webpack: A powerful and flexible bundler with a wide range of features and plugins.</li>
+          <li>Rollup: A fast and efficient bundler focused on producing small, optimized bundles.</li>
+          <li>Parcel: A zero-configuration bundler that aims to be simple and easy to use.</li>
+          <li>Vite: A fast development server and build tool that leverages native ES modules for 
+		    lightning-fast development. 
+		</ul>
+      </li>
+	</ul>
+  </li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>What are Module Bundlers used for?</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Module bundlers are used for several other purposes, including:</p>
 
-Module bundlers are used for several other purposes, including:
-  - Transpiling, minifying, and optimizing code to improve performance.
-  - Resolving naming conflicts and removing unused code via tree shaking.
-  - Enabling the use of new JavaScript features, even if the targeted browser does not 
-    yet support them.
-  - Providing a development environment with features such as live reloading and hot 
-    module replacement for faster development iterations.
-  - Supporting the use of modern JavaScript features such as ES modules and JSX.
-  - Enabling the creation of libraries and frameworks that can be easily distributed 
-    and used in other projects.
-
+<ul>
+  <li>Transpiling, minifying, and optimizing code to improve performance.</li>
+  <li>Resolving naming conflicts and removing unused code via tree shaking.</li>
+  <li>Enabling the use of new JavaScript features, even if the targeted browser does not yet support 
+    them.</li>
+  <li>Providing a development environment with features such as live reloading and hot module 
+    replacement for faster development iterations.</li>
+  <li>Supporting the use of modern JavaScript features such as ES modules and JSX.</li>
+  <li>Enabling the creation of libraries and frameworks that can be easily distributed and used in 
+    other projects.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Popular Module Bundlers</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Webpack</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Webpack is one of the most popular module bundlers in the JavaScript community. It's 
+<p><b>Webpack</b> is one of the most popular module bundlers in the JavaScript community. It's 
 highly configurable and can handle a wide variety of use cases. Additionally, it has 
-a large community and a wide range of plugins available.
-  - Pros: Highly configurable, a wide range of plugins available, large community.
-  - Cons: May be difficult to set up and configure and can produce large bundle sizes.
+a large community and a wide range of plugins available.</p>
 
+<ul>
+  <li>Pros: Highly configurable, a wide range of plugins available, large community.</li>
+  <li>Cons: May be difficult to set up and configure and can produce large bundle sizes.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Esbuild</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Esbuild is a relatively new module bundler that aims to provide a very fast and 
+<p>Esbuild is a relatively new module bundler that aims to provide a very fast and 
 efficient bundling. It's written in Go and focuses on providing great performance, 
 even for large projects. It has a plugin system and can be used with other tools 
-like Rollup.
-  - Pros: It's very fast, efficient, and lightweight.
-  - Cons: Relatively new and not as widely adopted as other options.
+like Rollup.</p>
 
+<ul>
+  <li>Pros: It's very fast, efficient, and lightweight.</li>
+  <li>Cons: Relatively new and not as widely adopted as other options.</li>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Rollup</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Rollup is particularly well-suited for library development. It produces smaller bundle 
+<p>Rollup is particularly well-suited for library development. It produces smaller bundle 
 sizes than some other bundlers, which can be beneficial for libraries that are intended 
 to be distributed widely. Additionally, Rollup has a plugin-based architecture that 
-allows for a high degree of customization.
-  - Pros: Well-suited for library development, produces smaller bundle sizes.
-  - Cons: May not be as well-suited for large, complex projects.
+allows for a high degree of customization.</p>
 
+<ul>
+  <li>Pros: Well-suited for library development, produces smaller bundle sizes.</li>
+  <li>Cons: May not be as well-suited for large, complex projects.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Parcel</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Parcel is a relatively new module bundler that aims to provide a simple and easy-to-use 
+<p>Parcel is a relatively new module bundler that aims to provide a simple and easy-to-use 
 experience. It has a minimal configuration and can handle most common use cases out of 
 the box. Moreover, Parcel has a built-in development server, which can be useful for 
-testing and debugging.
-  - Pros: Minimal configuration, built-in development server.
-  - Cons: May fall short for some advanced use cases.
+testing and debugging.</p>
 
+<ul>
+  <li>Pros: Minimal configuration, built-in development server.</li>
+  <li>Cons: May fall short for some advanced use cases.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Vite</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Vite is a lightweight module bundler that is designed for development speed. It uses 
+<p>Vite is a lightweight module bundler that is designed for development speed. It uses 
 native ES modules in the browser and has a hot module replacement feature that allows 
-for fast development iterations.
-  - Pros: It's lightweight, has fast development iterations, and it's easy to set up.
-  - Cons: Limited in older browser support, and needs more community traction to become 
-    sustainable.
+for fast development iterations.</p>
 
+<ul>
+  <li>Pros: It's lightweight, has fast development iterations, and it's easy to set up.</li>
+  <li>Cons: Limited in older browser support, and needs more community traction to become 
+    sustainable.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Setting up a Module Bundler</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2062,22 +2070,20 @@ module.exports = {
   }
 };
 </pre>
-
-  3.    Then, in your package.json, add a script to run Webpack:
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>3. Then, in your package.json, add a script to run Webpack:</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>
 "scripts": {
     "build": "webpack"
   },
 </pre>
-
-  4.    Finally, you can run the build script by running npm run build in your terminal, 
-        and webpack will create a bundle.js file in the dist directory.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>4. Finally, you can run the build script by running npm run build in your terminal, 
+and webpack will create a bundle.js file in the dist directory.</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Naming Conflicts</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <p><b>Module bundlers</b> can potentially introduce naming conflicts. They occur when two or more 
 modules use the same variable or function name. These conflicts can cause unexpected behavior and 
 errors in your code. To resolve these conflicts, you can use a technique called "tree shaking", 
