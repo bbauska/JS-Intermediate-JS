@@ -378,51 +378,49 @@ git checkout -b feature/sets-implementation
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>4. Resources for Learning</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-  - MDN Web Docs: Comprehensive documentation on Sets, Maps, and Symbols.
-  - JavaScript.info: A great resource for in-depth tutorials on advanced JavaScript topics.
-  
-By using GitHub to manage your code, you can easily track changes, collaborate with 
-others, and showcase your work. This approach will help you solidify your understanding 
-of advanced data types in JavaScript while also gaining experience with version control 
-and collaboration tools.
+<ul>
+  <li><b>MDN Web Docs</b>: Comprehensive documentation on Sets, Maps, and Symbols.</li>
+  <li><b>JavaScript.info</b>: A great resource for in-depth tutorials on advanced JavaScript topics.</li>
+</ul>
+<p>By using GitHub to manage your code, you can easily track changes, collaborate with others, and 
+showcase your work. This approach will help you solidify your understanding of advanced data types 
+in JavaScript while also gaining experience with version control and collaboration tools.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>5. Asynchronous JavaScript</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Asynchronous JavaScript is a programming paradigm that allows JavaScript to perform tasks 
+<p><b>Asynchronous JavaScript</b> is a programming paradigm that allows JavaScript to perform tasks 
 without blocking the execution of other code. This is particularly important in web 
 development, where you want to maintain a responsive user interface while performing tasks 
-like fetching data from a server or reading files.
-To understand asynchronous JavaScript, we can break it down into several sub-problems:
-
+like fetching data from a server or reading files.</p>
+<p>To understand asynchronous JavaScript, we can break it down into several sub-problems:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>6. Understanding the Event Loop</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>What is the Event Loop?</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - The event loop is a mechanism that allows JavaScript to perform non-blocking 
-    operations by using a single-threaded model.
-
+<ul>
+  <li>The event loop is a mechanism that allows JavaScript to perform non-blocking operations by 
+    using a single-threaded model.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>How does it work?</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - JavaScript executes code in a call stack. When asynchronous operations are initiated 
-    (like fetching data), they are sent to the Web APIs (like the browser's networking 
-	layer).
-  - Once the operation completes, a callback function is placed in the message queue.
-  - The event loop continuously checks the call stack and the message queue, executing 
-    the callback when the call stack is empty.
-
+<ul>
+  <li>JavaScript executes code in a call stack. When asynchronous operations are initiated (like 
+    fetching data), they are sent to the Web APIs (like the browser's networking layer).</li>
+  <li>Once the operation completes, a callback function is placed in the message queue.</li>
+  <li>The event loop continuously checks the call stack and the message queue, executing the 
+    callback when the call stack is empty.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>7. Callback Functions</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>What are callbacks?</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - A callback is a function passed as an argument to another function, which is then 
-    executed after some operation has been completed.
-
+<ul>
+  <li>A callback is a function passed as an argument to another function, which is then executed 
+    after some operation has been completed.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example of a callback:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -444,18 +442,18 @@ fetchData((data) => {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>What are Promises?</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - A Promise is an object representing the eventual completion (or failure) of an 
-    asynchronous operation and its resulting value.
-	
+<ul>
+  <li>A <b>Promise</b> is an object representing the eventual completion (or failure) of an 
+    asynchronous operation and its resulting value.</li>
+</ul>	
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>States of a Promise:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - Pending: The initial state, neither fulfilled nor rejected.
-  - Fulfilled: The operation completed successfully.
-  - Rejected: The operation failed.
-
+<ul>
+  <li>Pending: The initial state, neither fulfilled nor rejected.</li>
+  <li>Fulfilled: The operation completed successfully.</li>
+  <li>Rejected: The operation failed.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Creating and using a Promise:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -478,11 +476,9 @@ fetchData()
     .then(data => console.log(data)) // <i>Outputs: Data received</i>
     .catch(error => console.error(error));
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>javascript, another example</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <pre>
 let myPromise = new Promise((resolve, reject) => {
   setTimeout(() => {
@@ -498,21 +494,22 @@ myPromise.then((result) => {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>What is Async/Await?</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-  - Async/Await is a syntactic sugar built on top of Promises that allows you to write 
-    asynchronous code in a more synchronous fashion.
-
+<ul>
+  <li>Async/Await is a syntactic sugar built on top of Promises that allows you to write 
+    asynchronous code in a more synchronous fashion.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>How to use Async/Await:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-  - You define a function with the async keyword, and within that function, you can use 
-    the await keyword to pause execution until the Promise is resolved.
-
+<ul>
+  <li>You define a function with the async keyword, and within that function, you can use 
+    the await keyword to pause execution until the Promise is resolved.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <pre>
 const fetchData = () => {
   return new Promise((resolve) => {
@@ -534,51 +531,68 @@ getData();
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>10. Error Handling</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - Error handling in callbacks:
-  - Typically done by passing an error as the first argument to the callback.
-  - Error handling in Promises:
-  - Use .catch() to handle errors.
-  - Error handling with Async/Await:
-  - Use try...catch blocks to handle errors.
-
+<ul>
+  <li>Error handling in <b>callbacks</b>:
+    <ul>
+      <li>Typically done by passing an error as the first argument to the callback.</li>
+	</ul>
+  </li>
+  <li>Error handling in <b>Promises</b>:
+    <ul>
+      <li>Use <b>.catch()</b> to handle errors.</li>
+	</ul>
+  </li>
+  <li>Error handling with <b>Async/Await</b>:
+    <ul>
+	  <li>Use <b>try...catch blocks</b> to handle errors.</li>
+    </ul>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>11. Practical Use Cases</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - Fetching data from APIs:
-  - Use fetch() or libraries like Axios to make HTTP requests.
-  - Handling user interactions:
-  - Use asynchronous code to respond to user actions without blocking the UI.
-  
-  
-  - Working with timers and intervals:
-  - Use setTimeout and setInterval for delayed or repeated execution.
-
+<ul>
+  <li>Fetching data from APIs:
+    <ul>
+	  <li>Use fetch() or libraries like Axios to make HTTP requests.</li>
+	</ul>
+  </li>
+  <li>Handling user interactions:
+    <ul>
+	  <li>Use asynchronous code to respond to user actions without blocking the UI.</li>
+    </ul>
+  </li>	
+  <li>Working with timers and intervals:
+    <ul>
+	  <li>Use setTimeout and setInterval for delayed or repeated execution.</li>
+    </ul>
+  </li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Conclusion</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Asynchronous JavaScript is essential for building responsive web applications. By 
-understanding the event loop, callbacks, promises, async/await, and error handling, 
-you can effectively manage asynchronous operations in your code.
-
+<p><b>Asynchronous</b> JavaScript is essential for building responsive web applications. By 
+understanding the event loop, callbacks, promises, async/await, and error handling, you can 
+effectively manage asynchronous operations in your code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>3. Object-Oriented Programming (OOP):</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Object-Oriented Programming (OOP) is a programming paradigm that uses "objects" to 
-represent data and methods to manipulate that data. OOP is designed to improve code 
-organization, reusability, and maintainability. To understand OOP, we can break it 
-down into several key concepts and principles:
-
-1. Key Concepts of OOP
-
-a. Objects
-
-  - Definition: An object is an instance of a class that contains properties (attributes) 
-    and methods (functions) that define its behavior.
-  - Example:
-  
+<p><b>Object-Oriented Programming (OOP)</b> is a programming paradigm that uses "objects" to 
+represent data and methods to manipulate that data. OOP is designed to improve code organization, 
+reusability, and maintainability. To understand OOP, we can break it down into several key 
+concepts and principles:</p>
+<ol start="1">
+  <li>Key Concepts of OOP
+    <ol type="a" start="a">
+	  <li>Objects
+	    <ul>
+		  <li>Definition: An object is an instance of a class that contains properties (attributes) 
+		    and methods (functions) that define its behavior.</li>
+          <li>Example:</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+</ol>  
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -592,12 +606,15 @@ const car = {
     }
 };
 </pre>
-
-b. Classes
-  - Definition: A class is a blueprint for creating objects. It defines properties and methods 
-    that the created objects will have.
-  - Example:
-
+<ol type="a" start="h">
+  <li>Classes
+    <ul>
+	  <li>Definition: A class is a blueprint for creating objects. It defines properties and methods 
+	    that the created objects will have.</li>
+	  <li>Example:</li>
+	</ul>
+  </li>
+</ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -619,16 +636,19 @@ const myCar = new Car('Toyota', 'Corolla', 2020);
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>2. OOP Principles</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-a. Encapsulation
-  - Definition: Encapsulation is the bundling of data (attributes) and methods 
-    (functions) that operate on that data within a single unit (class). It restricts 
-	direct access to some of an object's components.
-  - Example: Using private properties in a class:
-
+<ol type="a" start="a">
+  <li>Encapsulation
+    <ul>
+	  <li>Definition: Encapsulation is the bundling of data (attributes) and methods (functions) 
+	    that operate on that data within a single unit (class). It restricts direct access to some 
+		of an object's components.</li>
+	  <li>Example: Using private properties in a class:</li>
+	</ul>
+  </li>
+</ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <pre>
 class BankAccount {
   #balance; // Private property
@@ -647,16 +667,18 @@ account.deposit(50);
 console.log(account.getBalance()); // Outputs: 150
 </pre>
 
-b. Inheritance
-
-  - Definition: Inheritance allows a class (child class) to inherit properties and 
-    methods from another class (parent class). This promotes code reusability.
-  - Example:
-
+<ol type="a" start="h">
+  <li>Inheritance
+    <ul>
+	  <li>Definition: Inheritance allows a class (child class) to inherit properties and methods 
+	    from another class (parent class). This promotes code reusability.</li>
+	  <li>Example:</li>
+    </ul>
+  </li>
+</ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <pre>
 class Vehicle {
   constructor(make, model) {
@@ -683,12 +705,16 @@ myCar.start(); // Outputs: Vehicle started
 myCar.honk();  // Outputs: Honk! Honk!
 </pre>
 
-c. Polymorphism
-  - Definition: Polymorphism allows methods to do different things based on the object 
-    it is acting upon. It can be achieved through method overriding (inherited classes 
-	can provide a specific implementation of a method).
-  - Example:
-
+<ol type="a" start="c">
+  <li>Polymorphism
+    <ul>
+      <li>Definition: Polymorphism allows methods to do different things based on the object it is 
+	    acting upon. It can be achieved through method overriding (inherited classes can provide a 
+		specific implementation of a method).</li>
+	  <li>Example:</li>
+	</ul>
+  </li>
+</ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -714,13 +740,16 @@ const myCat = new Cat();
 myDog.speak(); // Outputs: Woof! Woof!
 myCat.speak(); // Outputs: Meow!
 </pre>
-
-d. Abstraction
-  - Definition: Abstraction is the concept of hiding the complex implementation details 
-    and showing only the essential features of an object. It can be achieved through 
-	abstract classes or interfaces.
-  - Example:
-
+<ol type="a" start="d">
+  <li>Abstraction
+    <ul>
+	  <li>Definition: Abstraction is the concept of hiding the complex implementation details and 
+	    showing only the essential features of an object. It can be achieved through abstract 
+		classes or interfaces.</li>
+	  <li>Example:</li>
+	</ul>
+  </li>
+</ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -744,24 +773,28 @@ class Rectangle extends Shape {
 const myRectangle = new Rectangle(5, 10);
 console.log(myRectangle.area()); // Outputs: 50
 </pre>
-
-3. Benefits of OOP
-  - Modularity: Code is organized into classes and objects, making it easier to manage.
-  - Reusability: Classes can be reused across different parts of an application or in 
-    different projects.
-  - Maintainability: Changes to a class can be made without affecting other parts of 
-    the code.
-  - Flexibility: OOP allows for the creation of more flexible and adaptable code 
-    through inheritance and polymorphism.
-
-4. Practical Use Cases
-  - Game Development: OOP is widely used in game development to represent entities 
-    like players, enemies, and items.
-  - Web Development: Frameworks like React and Angular use OOP principles to create 
-    reusable components.
-  - Software Engineering: OOP is used in designing complex software systems, making 
-    them easier to understand and maintain.
-
+<ol type="1" start="3">
+  <li>Benefits of OOP
+    <ul>
+	  <li>Modularity: Code is organized into classes and objects, making it easier to manage.</li>
+	  <li>Reusability: Classes can be reused across different parts of an application or in different 
+	    projects.</li>
+      <li>Maintainability: Changes to a class can be made without affecting other parts of the code.</li>
+	  <li>Flexibility: OOP allows for the creation of more flexible and adaptable code through 
+	    inheritance and polymorphism.</li>
+	</ul>
+  </li>
+  <li>Practical Use Cases
+    <ul>
+	  <li>Game Development: OOP is widely used in game development to represent entities like players, 
+	    enemies, and items.</li>
+	  <li>Web Development: Frameworks like React and Angular use OOP principles to create reusable 
+	    components.</li>
+	  <li>Software Engineering: OOP is used in designing complex software systems, making them easier 
+	    to understand and maintain.</li>
+	</ul>
+  </li>
+</ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Conclusion</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
