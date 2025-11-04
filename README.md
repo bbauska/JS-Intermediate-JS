@@ -1998,37 +1998,36 @@ for fast development iterations.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Setting up a Module Bundler</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-We'll use Webpack as an example, to show you how to set up a module bundler for a simple 
-project:
-
-1.    First, install Webpack and the necessary loaders and plugins by running the 
-      following command:
-      npm install webpack webpack-cli --save-dev
-2.    Next, create a webpack.config.js file in the root of your project. This file will 
+<p>We'll use Webpack as an example, to show you how to set up a module bundler for a simple project:</p>
+<ol start="1">
+  <li>First, install Webpack and the necessary loaders and plugins by running the 
+      following command:<br>
+      npm install webpack webpack-cli --save-dev</li>
+  <li>Next, create a webpack.config.js file in the root of your project. This file will 
       contain the configuration for Webpack. The example below contains a configuration 
-	  file that tells Webpack to use the babel-loader to transpile JavaScript files:
+	  file that tells Webpack to use the babel-loader to transpile JavaScript files:</li>
+</ol>
 
 <pre>
 const path = require('path');
 
 module.exports = {
-    entry: './src/index.js',
-    output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js'
-    },
-    module: {
-        rules: [
-            {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                use: {
-                    loader: 'babel-loader'
-                }
-            }
-        ]
-    }
+  entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader'
+        }
+      }
+    ]
+  }
 };
 </pre>
 
@@ -2047,111 +2046,119 @@ module.exports = {
 <h4>Naming Conflicts</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Module bundlers can potentially introduce naming conflicts. They occur when two or more 
-modules use the same variable or function name. These conflicts can cause unexpected 
-behavior and errors in your code. To resolve these conflicts, you can use a technique 
-called "tree shaking", which is a way of removing unused code from the final bundle. 
-Many module bundlers support the use of namespaces or scoping to reduce the chance of 
-naming conflicts.
+<p><b>Module bundlers</b> can potentially introduce naming conflicts. They occur when two or more 
+modules use the same variable or function name. These conflicts can cause unexpected behavior and 
+errors in your code. To resolve these conflicts, you can use a technique called "tree shaking", 
+which is a way of removing unused code from the final bundle. Many module bundlers support the use 
+of namespaces or scoping to reduce the chance of naming conflicts.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Popular Module Bundlers</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<ul>
+  <li>Webpack.</li>
+  <li>Esbuild.</li>
+  <li>Rollup.</li>
+</ul>
 
-Popular Module Bundlers
+<ol type="1" start="7">
+  <li>Testing and Test-Driven Development (TDD):</li>
+</ol>
 
-  - Webpack.
-  - Esbuild.
-  - Rollup.
-
-  7. Testing and Test-Driven Development (TDD):
-
-Test-Driven Development (TDD) is a software development method in which testing is done 
+<p><b>Test-Driven Development (TDD)</b> is a software development method in which testing is done 
 before coding is written. This means that development begins with writing tests that 
-define how a particular function or module should work.
+define how a particular function or module should work.</p>
 
-In layman’s terms, Test Driven Development (TDD) is a software development practice that 
+<p>In layman’s terms, Test Driven Development (TDD) is a software development practice that 
 focuses on creating unit test cases before developing the actual code. It is an iterative 
-approach combining programming, unit test creation, and refactoring.
+approach combining programming, unit test creation, and refactoring.</p>
 
-  - The TDD approach originates from the Agile manifesto principles and Extreme programming.
-  - As the name suggests, the test process drives software development.
-  - Moreover, it’s a structuring practice that enables developers and testers to obtain 
-    optimized code that proves resilient in the long term.
-  - In TDD, developers create small test cases for every feature based on their initial 
+<ul>
+  <li>The TDD approach originates from the Agile manifesto principles and Extreme programming.</li>
+  <li>As the name suggests, the test process drives software development.</li>
+  <li>Moreover, it’s a structuring practice that enables developers and testers to obtain 
+    optimized code that proves resilient in the long term.</li>
+  <li>In TDD, developers create small test cases for every feature based on their initial 
     understanding. The primary intention of this technique is to modify or write new code 
-	only if the tests fail. This prevents duplication of test scripts.
-
+	only if the tests fail. This prevents duplication of test scripts.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Test Driven Development (TDD) Examples</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-1.    Calculator Function: When building a calculator function, a TDD approach would 
+<ol type="1" start="1">
+  <li>Calculator Function: When building a calculator function, a TDD approach would 
       involve writing a test case for the “add” function and then writing the code for 
 	  the process to pass that test. Once the “add” function is working correctly, 
 	  additional test cases would be written for other functions such as “subtract”, 
-	  “multiply” and “divide”.
-2.    User Authentication: When building a user authentication system, a TDD approach 
+	  “multiply” and “divide”.</li>
+  <li>User Authentication: When building a user authentication system, a TDD approach 
       would involve writing a test case for the user login functionality and then writing 
 	  the code for the login process to pass that test. Once the login functionality works 
 	  correctly, additional test cases will be written for registration, password reset, 
-	  and account verification.
-3.    E-commerce Website: When building an e-commerce website, a TDD approach would involve 
+	  and account verification.</li>
+  <li>E-commerce Website: When building an e-commerce website, a TDD approach would involve 
       writing test cases for various features such as product listings, shopping cart 
 	  functionality, and checkout process. Tests would be written to ensure the system 
 	  works correctly at each process stage, from adding items to the cart to completing 
-	  the purchase.
-
+	  the purchase.</li>
+</ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Three Phases of Test Driven Development</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-1.    Create precise tests: Developers need to create exact unit tests to verify the 
+<ol type="1" start="1">
+  <li>Create precise tests: Developers need to create exact unit tests to verify the 
       functionality of specific features. They must ensure that the test compiles so 
 	  that it can execute. In most cases, the test is bound to fail. This is a meaningful 
 	  failure as developers create compact tests based on their assumptions of how the 
-	  feature will behave.
-2.    Correcting the Code: Once a test fails, developers must make the minimal changes 
-      required to update the code to run successfully when re-executed.
-3.    Refactor the Code: Once the test runs successfully, check for redundancy or any 
+	  feature will behave.</li>
+  <li>Correcting the Code: Once a test fails, developers must make the minimal changes 
+      required to update the code to run successfully when re-executed.</li>
+  <li>Refactor the Code: Once the test runs successfully, check for redundancy or any 
       possible code optimizations to enhance overall performance. Ensure that refactoring 
-	  does not affect the external behavior of the program.
+	  does not affect the external behavior of the program.</li>
+</ol>
 
-The image below represents a high-level TDD approach toward development:
- 
-  8. Browser APIs and DOM Manipulation:
+<p>The image below represents a high-level TDD approach toward development:</p>
+<ol type="1" start="8">
+  <li>Browser APIs and DOM Manipulation:</li>
+</ol>
 
-JavaScript interacts with the browser and web pages through Browser APIs and DOM Manipulation.
-
+<p>JavaScript interacts with the browser and web pages through Browser APIs and DOM Manipulation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Browser APIs:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - These are built-in interfaces provided by the browser that allow you to access various 
+<ul>
+  <li>These are built-in interfaces provided by the browser that allow you to access various 
     functionalities like:
-    - DOM API: Manipulate the structure, content, and style of a web page (more details below).
-    - Fetch API: Make network requests to retrieve data from servers.
-    - Web Storage API: Store data locally in the browser (e.g., Local Storage, Session Storage).
-    - Geolocation API: Access the user's geographic location.
-    - Canvas API: Draw graphics and animations on the page.
-    - Web Audio API: Work with audio data in the browser.
-    - WebRTC API: Enable real-time communication (e.g., video calls).
-
+	<ul>
+	  <li><b>DOM API</b>: Manipulate the structure, content, and style of a web page (more details below).</li>
+	  <li><b>Fetch API</b>: Make network requests to retrieve data from servers.</li>
+      <li><b>Web Storage API</b>: Store data locally in the browser (e.g., Local Storage, Session Storage).</li>
+	  <li><b>Geolocation API</b>: Access the user's geographic location.<li>
+	  <li><b>Canvas API</b>: Draw graphics and animations on the page.</li>
+      <li><b>Web Audio API</b>: Work with audio data in the browser.</li>
+      <li><b>WebRTC API</b>: Enable real-time communication (e.g., video calls).</li>
+	</ul>
+  </li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>DOM Manipulation:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>The Document Object Model (DOM) represents the HTML structure of a web page as a 
-    tree-like structure, where each HTML element is a node in the tree.</li>
-  <li>JavaScript can use the DOM API to:
+  <li>The <b>Document Object Model (DOM)</b> represents the HTML structure of a web page as a 
+    tree-like structure, where each HTML element is a <b>node in the tree</b>.</li>
+  <li>JavaScript can use the <b>DOM API</b> to:
     <ul>
-	  <li>Select elements: Access specific elements using methods like getElementById, 
-	    querySelector, and querySelectorAll.</li>
-	  <li>Modify content: Change the text content of an element using properties like 
-	    innerText or textContent.</li>
-	  <li>Manipulate attributes: Add, remove, or modify attributes of elements (e.g., 
-	    src, class, id).</li>
-	  <li>Change styles: Modify the visual appearance of elements by manipulating their 
-	    CSS styles.</li>
-	  <li>Add/remove elements: Dynamically create new elements and insert them into the 
-	    DOM, or remove existing elements.</li>
-	  <li>Handle events: Respond to user interactions like clicks, mouse movements, and 
+	  <li><b>Select elements</b>: Access specific elements using methods like <b>getElementById</b>, 
+	    <b>querySelector</b>, and <b>querySelectorAll</b>.</li>
+	  <li><b>Modify content</b>: Change the text content of an element using <b>properties</b> like 
+	    <b>innerText</b> or <b>textContent</b>.</li>
+	  <li><b>Manipulate attributes</b>: Add, remove, or modify attributes of elements (e.g., 
+	    <b>src, class, id</b>).</li>
+	  <li><b>Change styles</b>: Modify the visual appearance of elements by manipulating their 
+	    <b>CSS styles</b>.</li>
+	  <li><b>Add/remove elements</b>: Dynamically create new elements and insert them into the 
+	    <b>DOM</b>, or remove existing elements.</li>
+	  <li><b>Handle events</b>: Respond to user interactions like clicks, mouse movements, and 
 	    keyboard presses.</li>
     </ul>
   </li>
@@ -2190,8 +2197,9 @@ myElement.addEventListener("click", function() {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Practical Examples Comparing the BOM and DOM:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - Accessing Window Properties with the BOM:
+<ul>
+  <li>Accessing Window Properties with the BOM:</li>
+</ul>
 
 <pre>
 // <i>Get the width and height of the browser window</i>
@@ -2215,3 +2223,4 @@ document.body.appendChild(newElement);
 
 <!-- last updated 12/1/2024 8:07pm -->
 <!-- last updated 5/20/2025 11:17am -->
+<!-- last updated 11/03/2025 4:34pm -->
