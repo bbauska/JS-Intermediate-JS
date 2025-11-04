@@ -2,7 +2,7 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of JS-Intermediate-JS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h1>JS Intermediate JavaScript</h1>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><small><small>(JS-Int-JavaScript)</small></small</p>
+<p><small><small>(JS-Intermediate-JS)</small></small</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Intermediate/advanced material</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -16,15 +16,15 @@
 <h2>Key Concepts:</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>Objects: Objects are the fundamental building blocks of JavaScript. They are 
+  <li><b>Objects</b>: Objects are the fundamental building blocks of JavaScript. They are 
     collections of key-value pairs, where keys are properties (variables) and values 
     can be any data type, including functions (methods).</li>
-  <li>Prototypes: Every object in JavaScript has a prototype, which is another object 
+  <li><b>Prototypes</b>: Every object in JavaScript has a prototype, which is another object 
     from which it inherits properties and methods. This allows for efficient sharing 
     of behavior and data between objects.</li>
-  <li>Constructors: Constructors are special functions used to create objects with 
+  <li><b>Constructors</b>: Constructors are special functions used to create objects with 
     specific properties and methods. They act as blueprints for objects.</li>
-  <li>Classes (ES6): Introduced in ECMAScript 2015 (ES6), classes provide a more 
+  <li><b>Classes (ES6)</b>: Introduced in ECMAScript 2015 (ES6), classes provide a more 
     syntactically familiar way to define objects and their behavior. However, under 
     the hood, they still utilize prototypes.</li>
 </ul>
@@ -32,29 +32,30 @@
 <h3 id="ch1">1. Advanced Data Types and Manipulation:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>Explore advanced data types like Sets, Maps, and Symbols.</li>
-  <li>Learn how to manipulate arrays and objects using advanced techniques such as 
-    destructuring, spreading, and rest parameters.</li>
-  <li>Understand how to use the Array methods like map, filter, reduce, and forEach 
+  <li>Explore advanced data types like <b>Sets, Maps,</b> and <b>Symbols</b>.</li>
+  <li>Learn how to manipulate arrays and objects using advanced techniques such as <b>destructuring, 
+    spreading,</b> and <b>rest parameters</b>.</li>
+  <li>Understand how to use the Array methods like <b>map, filter, reduce,</b> and <b>forEach</b> 
     effectively.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2">2. Asynchronous JavaScript:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>Dive into asynchronous programming concepts like callbacks, promises, and 
-    async/await.</li>
-  <li>Learn how to handle asynchronous operations using techniques like chaining 
-    promises and error handling.</li>
-  <li>Understand how to make API calls and handle responses asynchronously.</li>
+  <li>Dive into asynchronous programming concepts like <b>callbacks, promises,</b> and <b>async/
+    await</b>.</li>
+  <li>Learn how to handle asynchronous operations using techniques like <b>chaining promises</b> and 
+    <b>error handling</b>.</li>
+  <li>Understand how to make API calls and handle responses <b>asynchronously</b>.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3">3. Object-Oriented Programming (OOP):</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>Learn about OOP principles like encapsulation, inheritance, and polymorphism.</li>
-  <li>Explore how to create and use classes, constructors, and prototypes in JavaScript.</li>
-  <li>Understand the concept of "this" and how it behaves in different contexts.</li>
+  <li>Learn about OOP principles like <b>encapsulation, inheritance,</b> and <b>polymorphism</b>.</li>
+  <li>Explore how to create and use <b>classes, constructors,</b> and <b>prototypes</b> in 
+    JavaScript.</li>
+  <li>Understand the concept of <b>"this"</b> and how it behaves in different contexts.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4">4. Functional Programming:</h3>
@@ -63,163 +64,163 @@
 independent, reusable functions that operate on data without side effects</p>
 
 <ul>
-  <li>Explore functional programming concepts like higher-order functions, pure 
-    functions, and immutability.</li>
-  <li>Learn how to use functional programming techniques like map, filter, and 
-    reduce to solve problems.</li>
-  <li>Understand the benefits of functional programming and how it can improve 
-    code readability and maintainability.</li>
+  <li>Explore functional programming concepts like <b>higher-order functions, pure functions,</b> 
+    and <b>immutability</b>.</li>
+  <li>Learn how to use functional programming techniques like <b>map, filter,</b> and <b>reduce</b> 
+    to solve problems.</li>
+  <li>Understand the benefits of functional programming and how it can <b>improve code readability</b> 
+    and <b>maintainability</b>.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5">5. Error Handling and Debugging:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>Learn how to handle and throw errors effectively in JavaScript.</li>
-  <li>Explore debugging techniques using browser developer tools and console statements.</li>
-  <li>Understand how to use try-catch blocks to handle exceptions and prevent application 
-    crashes.</li>
+  <li>Learn how to <b>handle and throw errors effectively</b> in JavaScript.</li>
+  <li>Explore <b>debugging techniques</b> using <b>browser developer tools</b> and <b>console 
+    statements</b>.</li>
+  <li>Understand how to use <b>try-catch blocks</b> to handle <b>exceptions and prevent application 
+    crashes</b>.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch6">6. Modules and Bundlers:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>Learn how to organize your code into modules for better code organization and 
+  <li>Learn how to <b>organize your code into modules</b> for better code organization and 
     reusability.</li>
-  <li>Explore popular module systems like CommonJS and ES modules.</li>
-  <li>Understand how to use bundlers like Webpack or Rollup to bundle and optimize 
+  <li>Explore <b>popular module systems</b> like <b>CommonJS</b> and <b>ES modules</b>.</li>
+  <li>Understand how to use <b>bundlers</b> like <b>Webpack</b> or <b>Rollup</b> to bundle and optimize 
     your JavaScript code.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch7">7. Testing and Test-Driven Development (TDD):</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>Learn how to write unit tests using frameworks like Jest or Mocha.</li>
-  <li>Understand the principles of TDD and how to write tests before implementing 
+  <li>Learn how to write <b>unit tests</b> using frameworks like <b>Jest</b> or <b>Mocha</b>.</li>
+  <li>Understand the principles of <b>TDD</b> and how to write tests before implementing 
     functionality.</li>
-  <li>Explore techniques like mocking and stubbing to isolate dependencies during 
+  <li>Explore techniques like <b>mocking</b> and <b>stubbing</b> to isolate dependencies during 
     testing.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch8">8. Browser APIs and DOM Manipulation:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>Learn how to interact with the Document Object Model (DOM) using JavaScript.</li>
-  <li>Explore browser APIs like Fetch API, Local Storage, and Geolocation.</li>
-  <li>Understand how to manipulate HTML elements, handle events, and create dynamic 
-    web applications.</li>
+  <li>Learn how to interact with the <b>Document Object Model (DOM)</b> using JavaScript.</li>
+  <li>Explore <b>browser APIs</b> like <b>Fetch API, Local Storage,</b> and <b>Geolocation</b>.</li>
+  <li>Understand how to <b>manipulate HTML elements, handle events,</b> and <b>create dynamic 
+    web applications</b>.</li>
 </ul>
 
-<p>Remember, practice is key to mastering JavaScript. Work on small projects, solve 
-coding challenges, and build real-world applications to solidify your understanding 
-of these concepts. Good luck with your intermediate JavaScript education!</p>
+<p>Remember, practice is key to mastering JavaScript. Work on small projects, solve coding challenges, 
+and build real-world applications to solidify your understanding of these concepts. Good luck with 
+your intermediate JavaScript education!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Here are more details on each topic:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ol type="1">
-  <li>Advanced Data Types and Manipulation:
+  <li><b>Advanced Data Types and Manipulation</b>:
     <ul>
-      <li>Sets: Learn about the Set data structure, which allows you to store unique 
+      <li><b>Sets</b>: Learn about the Set data structure, which allows you to store unique 
 	    values of any type.</li>
-      <li>Maps: Explore the Map data structure, which stores key-value pairs and provides 
+      <li><b>Maps</b>: Explore the Map data structure, which stores key-value pairs and provides 
 	    efficient lookup and manipulation.</li>
-    <li>Symbols: Understand the Symbol data type, which is used to create unique 
-	  identifiers.</li>
+    <li><b>Symbols</b>: Understand the Symbol data type, which is used to create unique identifiers.</li>
   </ul>
   </li>
-  <li>Asynchronous JavaScript:
+  <li><b>Asynchronous JavaScript</b>:
     <ul>
-	  <li>Callbacks: Learn how to use callbacks to handle asynchronous operations by 
+	  <li><b>Callbacks</b>: Learn how to use callbacks to handle asynchronous operations by 
 	    passing functions as arguments.</li>
-	  <li>Promises: Understand the concept of promises, which represent the eventual 
+	  <li><b>Promises</b>: Understand the concept of promises, which represent the eventual 
 	    completion or failure of an asynchronous operation.</li>
-	  <li>Async/Await: Explore the async/await syntax, which provides a more readable 
+	  <li><b>Async/Await</b>: Explore the async/await syntax, which provides a more readable 
 	    and synchronous-like way to write asynchronous code.</li>
 	</ul>
   </li>
-  <li>Object-Oriented Programming (OOP):
+  <li><b>Object-Oriented Programming (OOP)</b>:
     <ul>
-      <li>Encapsulation: Learn how to encapsulate data and behavior within objects using 
+      <li><b>Encapsulation</b>: Learn how to encapsulate data and behavior within objects using 
 	    properties and methods.</li>
-      <li>Inheritance: Understand how to create class hierarchies and inherit properties 
+      <li><b>Inheritance</b>: Understand how to create class hierarchies and inherit properties 
 	    and methods from parent classes.</li>
-	  <li>Polymorphism: Explore the concept of polymorphism, which allows objects of 
+	  <li><b>Polymorphism</b>: Explore the concept of polymorphism, which allows objects of 
 	    different classes to be treated as the same type.</li>
 	</ul>
   </li>
-  <li>Functional Programming:
+  <li><b>Functional Programming</b>:
     <ul>
-      <li>Higher-Order Functions: Learn how to work with functions as first-class 
+      <li><b>Higher-Order Functions</b>: Learn how to work with functions as first-class 
 	    citizens, allowing them to be passed as arguments or returned from other 
 		functions.</li>
-      <li>Pure Functions: Understand the concept of pure functions, which always 
+      <li><b>Pure Functions</b>: Understand the concept of pure functions, which always 
 	    produce the same output for the same input and have no side effects.</li>
-      <li>Immutability: Explore the benefits of immutability, where data cannot 
+      <li><b>Immutability</b>: Explore the benefits of immutability, where data cannot 
 	    be changed once created, leading to more predictable and maintainable code.</li>
 	</ul>
   </li>
-  <li>Error Handling and Debugging:
+  <li><b>Error Handling and Debugging</b>:
     <ul>
-      <li>Throwing Errors: Learn how to throw custom errors using the throw keyword and 
+      <li><b>Throwing Errors</b>: Learn how to throw custom errors using the throw keyword and 
 	    handle them using try-catch blocks.</li>
-      <li>Debugging Techniques: Explore techniques like console logging, breakpoints, 
+      <li><b>Debugging Techniques</b>: Explore techniques like console logging, breakpoints, 
 	    and stepping through code to identify and fix issues.</li>
-      <li>Error Handling Best Practices: Understand how to handle errors gracefully 
+      <li><b>Error Handling Best Practices</b>: Understand how to handle errors gracefully 
 	    and provide meaningful error messages to users.</li>
     </ul>
   </li>
-  <li>Modules and Bundlers:
+  <li><b>Modules and Bundlers</b>:
     <ul>
-	  <li>Modules: Learn how to organize your code into separate files and export/import 
+	  <li><b>Modules</b>: Learn how to organize your code into separate files and export/import 
 	    functionality using module systems like CommonJS or ES modules.</li>
-      <li>Bundlers: Understand how bundlers like Webpack or Rollup can bundle your 
+      <li><b>Bundlers</b>: Understand how bundlers like Webpack or Rollup can bundle your 
 	    JavaScript modules into a single file, optimizing performance and handling 
 		dependencies.</li>
 	</ul>
   </li>
-  <li>Testing and Test-Driven Development (TDD):
+  <li><b>Testing and Test-Driven Development (TDD)</b>:
     <ul>
-      <li>Unit Testing: Learn how to write tests for individual units of code to 
+      <li><b>Unit Testing</b>: Learn how to write tests for individual units of code to 
 	    ensure they behave as expected.</li>
-	  <li>Test Frameworks: Explore popular test frameworks like Jest or Mocha, which 
+	  <li><b>Test Frameworks</b>: Explore popular test frameworks like Jest or Mocha, which 
 	    provide utilities for writing and running tests.</li>
-	  <li>Mocking and Stubbing: Understand how to create mock objects or stub functions 
+	  <li><b>Mocking and Stubbing</b>: Understand how to create mock objects or stub functions 
 	    to isolate dependencies and test specific parts of your code.</li>
     </ul>
   </li>
-  <li>Browser APIs and DOM Manipulation:
+  <li><b>Browser APIs and DOM Manipulation</b>:
     <ul>
-	  <li>DOM Manipulation: Learn how to access and manipulate HTML elements using 
+	  <li><b>DOM Manipulation</b>: Learn how to access and manipulate HTML elements using 
 	    JavaScript to create dynamic and interactive web pages.</li>
-      <li>Browser APIs: Explore various browser APIs like Fetch API for making HTTP 
+      <li><b>Browser APIs</b>: Explore various browser APIs like Fetch API for making HTTP 
 	    requests, Local Storage for client-side data storage, and Geolocation for 
 		retrieving user location.</li>
 	</ul>
   </li>
 </ol>
 
-<p>Remember to practice each topic by building small projects or solving coding 
-challenges. This hands-on experience will help solidify your understanding and 
-improve your skills as an intermediate JavaScript developer. Certainly! Let's delve 
-deeper into Advanced Data Types and Manipulation in JavaScript, specifically focusing on 
-Sets, Maps, and Symbols. Additionally, I'll provide guidance on how to use GitHub for 
-managing your code and collaborating on projects related to these topics.</p>
+<p>Remember to practice each topic by building small projects or solving coding challenges. This 
+hands-on experience will help solidify your understanding and improve your skills as an 
+intermediate JavaScript developer. Certainly! Let's delve deeper into Advanced Data Types and 
+Manipulation in JavaScript, specifically focusing on Sets, Maps, and Symbols. Additionally, 
+I'll provide guidance on how to use GitHub for managing your code and collaborating on projects 
+related to these topics.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>1. Advanced Data Types</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Sets</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>Definition: A Set is a collection of values where each value must be unique. It 
-    can store any type of data (primitive values or object references).</li>
+  <li>Definition: A <b>Set</b> is a <b>collection of values where each value must be unique</b>. 
+    It can store any type of data (primitive values or object references).</li>
   <li>Key Methods:
     <ul>
-	  <li>new Set(iterable): Creates a new Set. You can initialize it with an array or 
+	  <li><b>new Set(iterable):</b> Creates a new Set. You can initialize it with an array or 
 	    another iterable.</li>
-      <li>add(value): Adds a new element to the Set.</li>
-      <li>delete(value): Removes an element from the Set.</li>
-      <li>has(value): Checks if a value exists in the Set.</li>
-      <li>clear(): Removes all elements from the Set.</li>
-      <li>size: Returns the number of elements in the Set.</li>
+      <li><b>add(value):</b> Adds a new element to the Set.</li>
+      <li><b>delete(value):</b> Removes an element from the Set.</li>
+      <li><b>has(value):</b> Checks if a value exists in the Set.</li>
+      <li><b>clear():</b> Removes all elements from the Set.</li>
+      <li><b>size:</b> Returns the number of elements in the Set.</li>
     </ul>
   </li>
 </ul>
@@ -228,7 +229,6 @@ managing your code and collaborating on projects related to these topics.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>javascript</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <pre>
 const mySet = new Set([1, 2, 3, 4]);
 mySet.add(5);
@@ -236,23 +236,22 @@ mySet.delete(2);
 console.log(mySet.has(3)); // <i>true</i>
 console.log(mySet.size); // <i>4</i>
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Maps</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>Definition: A Map is a collection of key-value pairs where keys can be of any type 
-    (including objects), and each key must be unique.</li>
+  <li>Definition: A <b>Map</b> is a <b>collection of key-value pairs</b> where <b>keys can be of any type 
+    (including objects), and each key must be unique.</b></li>
   <li>Key Methods:
     <ul>
-	  <li>new Map(iterable): Creates a new Map. You can initialize it with an array of 
+	  <li><b>new Map(iterable)</b>: Creates a new Map. You can initialize it with an array of 
 	    key-value pairs.</li>
-      <li>set(key, value): Adds a new key-value pair to the Map.</li>
-      <li>get(key): Retrieves the value associated with the key.</li>
-      <li>delete(key): Removes the key-value pair from the Map.</li>
-      <li>has(key): Checks if a key exists in the Map.</li>
-      <li>clear(): Removes all key-value pairs from the Map.</li>
-      <li>size: Returns the number of key-value pairs in the Map.</li>
+      <li><b>set(key, value)</b>: Adds a new key-value pair to the Map.</li>
+      <li><b>get(key)</b>: Retrieves the value associated with the key.</li>
+      <li><b>delete(key)</b>: Removes the key-value pair from the Map.</li>
+      <li><b>has(key)</b>: Checks if a key exists in the Map.</li>
+      <li><b>clear()</b>: Removes all key-value pairs from the Map.</li>
+      <li><b>size</b>: Returns the number of key-value pairs in the Map.</li>
     </ul>
   </li>
 </ul>
@@ -272,11 +271,11 @@ console.log(myMap.size); // 2
 <h3>Symbols</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>Definition: A Symbol is a unique and immutable primitive value that can be used as 
-    an identifier for object properties.</li>
+  <li>Definition: A <b>Symbol</b> is a <b>unique and immutable primitive value that can be used as 
+    an identifier for object properties</b>.</li>
   <li>Key Characteristics:
     <ul>
-	  <li>Symbols are created using the Symbol() function.</li>
+	  <li>Symbols are created using the <b>Symbol()</b> function.</li>
 	  <li>Each Symbol is unique, even if they have the same description.</li>
 	  <li>They are often used to avoid name clashes in object properties.</li>
 	</ul>
@@ -301,33 +300,36 @@ console.log(obj[sym1]); // value1
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>2. Manipulating Advanced Data Types</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - Using Sets: You can perform operations like union, intersection, and difference by 
-    combining Sets.
-  - Using Maps: Maps can be used to create dictionaries or associative arrays, allowing 
-    for efficient data retrieval.
-  - Using Symbols: Symbols can be used to create private properties in objects, 
-    enhancing encapsulation.
-
+<ul>
+  <li>Using Sets: You can perform operations like union, intersection, and difference by combining 
+    Sets.</li>
+  <li>Using Maps: Maps can be used to create dictionaries or associative arrays, allowing for 
+    efficient data retrieval.</li>
+  <li>Using Symbols: Symbols can be used to create private properties in objects, enhancing 
+    encapsulation.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>3. Using GitHub for Code Management</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Creating a Repository</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-1.    Sign in to GitHub: Go to GitHub and sign in or create an account.
-2.    Create a New Repository:
-  - Click on the "+" icon in the top right corner and select "New repository."
-  - Give your repository a name (e.g., advanced-data-types).
-  - Optionally, add a description and choose whether it should be public or private.
-  - Click "Create repository."
-
+<ol type="1">
+  <li>Sign in to GitHub: Go to GitHub and sign in or create an account.</li>
+  <li>Create a New Repository:
+    <ul>
+	  <li>Click on the "+" icon in the top right corner and select "New repository."</li>
+      <li>Give your repository a name (e.g., advanced-data-types).</li>
+      <li>Optionally, add a description and choose whether it should be public or private.</li>
+      <li>Click "Create repository."</li>
+	</ul>
+  </li>
+</ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Cloning the Repository</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - Use Git to clone the repository to your local machine:
-
+<ul>
+  <li>Use <b>Git</b> to <b>clone the repository</b> to your local machine:</li>
+</ul>
 <pre>
 git clone https://github.com/yourusername/advanced-data-types.git
 cd advanced-data-types
@@ -335,47 +337,44 @@ cd advanced-data-types
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Adding Code</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - Create a new JavaScript file (e.g., sets.js, maps.js, symbols.js) and implement 
-    examples of Sets, Maps, and Symbols.
-  - Use git add to stage your changes:
-
+<ul>
+  <li>Create a new JavaScript file (e.g., sets.js, maps.js, symbols.js) and implement examples of 
+    Sets, Maps, and Symbols.</li>
+  <li>Use git add to stage your changes:</li>
+</ul>
 <pre>
 git add sets.js maps.js symbols.js
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Committing Changes</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - Commit your changes with a meaningful message:
-
+<ul>
+  <li>Commit your changes with a meaningful message:</li>
+</ul>
 <pre>
 git commit -m "Add examples for Sets, Maps, and Symbols"
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Pushing to GitHub</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - Push your changes to the remote repository:
-
+<ul>
+  <li>Push your changes to the remote repository:</li>
+</ul>
 <pre>
 git push origin main
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Collaborating</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-  - If you're working with others, you can create branches for new features or fixes:
-
+<ul>
+  <li>If you're working with others, you can create branches for new features or fixes:</li>
+</ul>
 <pre>
 git checkout -b feature/sets-implementation
 </pre>
-
-  - After making changes, push the branch and create a pull request on GitHub for review.
-
+<ul>
+  <li>After making changes, push the branch and create a pull request on GitHub for review.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>4. Resources for Learning</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
